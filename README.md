@@ -1,33 +1,65 @@
-# Session ID - Session Title
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-DA183v)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-DA183v)
+
+# DA180 - Explore SAP Datasphere and SAP Analytics Cloud End-to-End - Jump Start Session
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2024 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2024 session called <br> :point_right: ***DA180 - Explore SAP Datasphere and SAP Analytics Cloud End-to-End***. 
 
 ## Overview
 
-This session introduces attendees to...
+This jump start session will give you the opportunity to build a scenario with exercises for SAP Datasphere and SAP Analytics Cloud.
+Find out how the SAP Datasphere solution helps the line-of-business user get the job done. Discover flexible connection features, and learn how you can access data from different sources. Create an extendable business semantic model in an agile way, and connect analytics and visualization components in the context of a data warehouse.
+
+## Disclaimer
+
+* Your screen shots may look different than those in the exercises; they may contain additional content, depending on what other attendees have entered.
+* Some user interface elements may differ from the screenshot used in the exercise.
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+* Google Chrome Browser
+* Access to this GitHub repository 
+* Access to any SAP Datasphere system and in case you do not have access you can use a basic trial
+* You will also need a set of files for these exercises  <br>
+Download the ZIP-file from the GitHub site: :arrow_right: [DA180_Resources.zip](DA180_Resources.zip)
+
+> :warning: **Once downloaded to your local machine, please unzip the file into a separate folder.** <br>
+> :warning: **You will need it for the exercises. So, please remember the file location of the unzipped files!**
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+Be aware that some of the exercises are depend on each other, and have to be done in the sequence given below.<br>
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+The ***Optional Exercises*** are only relevant if you want to learn more about the solution especially how to create tables (#3) and ER models (#4) instead of importing the artefacts via CSN file (#5). 
+The exercises in section 5 are all optional and you can learn how to leverage Just Ask with SAP Analytics Cloud (#20), enable row-level security with Data Access Controls (#21), explore more features of the Analytic Model (#22) and learn about Transformation Flows and the usage of delta tables (#23).
 
-  
-**OR** Link to the Tutorial Navigator for example...
+1. **Getting Started**
+	* [Exercise Overview](exercises/ex00/README_ExOverview.md) **NEEDS UPDATE ONCE ALL EXERCISES ARE FINALIZED + EXERCISE FLOW GRAPHIC**
+	* [Overview about the Business Scenario & the Data Model](exercises/ex00/README.md) 
+	* [Get your basic trial system](exercises/ex00/README_GuidedTrial.md) 
+	* [First Log On](exercises/ex00/README_FirstLogon.md) 
+	
+2. **SAP Datasphere**
+	* [Exercise 01: Get to know your own Space ](exercises/ex01/README.md) 
+	* [Exercise 02: Prepare Your Data](exercises/ex02/README.md) (optional)
+	* [Exercise 03: Creating the Entity Relationship Model](exercises/ex03/README.md) (optional)
+	* [Exercise 04: Importing Tables ](exercises/ex04/README.md)
+	* [Exercise 05: Uploading Data ](exercises/ex05/README.md) 
+	* [Exercise 06: Creating the Dimension ](exercises/ex06/README.md) 
+	* [Exercise 07: Creating the Fact View and Analytic Model ](exercises/ex07/README.md) 
 
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
+4.  **SAP Analytics Cloud**
+	* [Exercise 08: Top 10 Revenue Generating Products ](exercises/ex08/README.md) 
+	* [Exercise 09: Revenue by Geography ](exercises/ex09/README.md) 
+
+5. **Optional Excecises**
+	* [Exercise 20: Identify Top Sales Managers with Just Ask](exercises/ex20/README.md) 
+	* [Exercise 21: Creating Row-Level Permissions based on External Hierarchy](exercises/ex21/README.md) 
+	* [Exercise 22: Explore the Analytic Model](exercises/ex22/README.md) 
+	* [Exercise 23: Create a Transformation Flow and the usage of delta tables ](exercises/ex23/README.md) 
+    
+Have fun :smiley:
 
 **IMPORTANT**
 

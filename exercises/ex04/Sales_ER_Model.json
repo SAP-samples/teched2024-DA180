@@ -1,0 +1,293 @@
+{
+  "editorSettings": {
+    "Sales_ER_Model": {
+      "editor": {
+        "lastModifier": "ERMODELER",
+        "default": "ERMODELER"
+      },
+      "uiModel": {
+        "guiModel": "{\"contents\":{\"ddd5d870-7d23-446f-ac9f-d7b5be5524b2\":{\"classDefinition\":\"sap.cdw.ermodeler.Model\",\"name\":\"Sales_ER_Model\",\"label\":\"Sales_ER_Model\",\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"contexts\":{\"e2fe0acb-e8a2-439d-8a13-cd358be40634\":{\"name\":\"SAP\"}},\"entities\":{\"cb3baaca-0112-4826-b0d7-934588e918fa\":{\"name\":\"Product\"},\"08fdd14c-2753-46ba-8816-2ad81c7c5837\":{\"name\":\"Sales_Manager\"},\"f571c0f4-78b6-4c6f-9d9b-b75369739126\":{\"name\":\"Sales_Transactions\"},\"73bec48d-b9d7-4f9e-b3b7-8d8757c002ba\":{\"name\":\"Store\"}},\"associations\":{\"56cd1110-125d-46d5-97b6-0d65fb0f267d\":{\"name\":\"_Store\"},\"4826c9aa-e926-4d11-9994-889ddc0e9dc2\":{\"name\":\"_Product\"},\"fa6234c4-78f6-476f-b48e-d2874f52262f\":{\"name\":\"_Sales_Man\"}},\"diagrams\":{\"576ae8ae-71a0-4a17-b39e-fce6217144f1\":{}}},\"576ae8ae-71a0-4a17-b39e-fce6217144f1\":{\"classDefinition\":\"sap.cdw.ermodeler.ui.Diagram\",\"symbols\":{\"d4d5f755-36e9-4fe3-8113-eede5bf40793\":{},\"7919c822-202d-4e77-a3f0-f8e0597c5917\":{},\"0883db29-dae1-476d-8ebd-4f6a24de137d\":{},\"382d669b-14d7-4168-9b10-17b894e59fb7\":{},\"467168aa-c8a4-4900-91b2-dd2a29a796f4\":{},\"229a9db2-add0-4b56-8186-9d1cda9174a2\":{},\"2a0f6365-cce1-44ab-b55c-dec0d52f9ea5\":{}}},\"cb3baaca-0112-4826-b0d7-934588e918fa\":{\"classDefinition\":\"sap.cdw.ermodeler.Table\",\"name\":\"Product\",\"label\":\"Product\",\"isPinToMemoryEnabled\":false,\"dataCategory\":\"DIMENSION\",\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"elements\":{\"9aa17e56-e907-441e-97be-219f87f2e38d\":{\"name\":\"Product_ID\"},\"5f9cddaa-fbc9-4cd0-b3db-be4c7ae9affe\":{\"name\":\"Product_Name\"},\"c75a1ef1-4130-4240-85aa-326cc34e8be3\":{\"name\":\"Product_Category_ID\"},\"5d78ddd4-d3d3-49de-a9a9-ee137781e295\":{\"name\":\"Product_Category_Name\"}}},\"9aa17e56-e907-441e-97be-219f87f2e38d\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"name\":\"Product_ID\",\"label\":\"Product ID\",\"length\":4,\"precision\":0,\"scale\":0,\"isKey\":true,\"isNotNull\":true,\"indexOrder\":0,\"labelElement\":\"5f9cddaa-fbc9-4cd0-b3db-be4c7ae9affe\"},\"5f9cddaa-fbc9-4cd0-b3db-be4c7ae9affe\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"semanticType\":\"@Semantics.text\",\"name\":\"Product_Name\",\"label\":\"Product Name\",\"length\":30,\"precision\":0,\"scale\":0,\"indexOrder\":1},\"c75a1ef1-4130-4240-85aa-326cc34e8be3\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"name\":\"Product_Category_ID\",\"label\":\"Product Category ID\",\"length\":4,\"precision\":0,\"scale\":0,\"indexOrder\":2,\"labelElement\":\"5d78ddd4-d3d3-49de-a9a9-ee137781e295\"},\"5d78ddd4-d3d3-49de-a9a9-ee137781e295\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"semanticType\":\"@Semantics.text\",\"name\":\"Product_Category_Name\",\"label\":\"Product Category Name\",\"length\":30,\"precision\":0,\"scale\":0,\"indexOrder\":3},\"08fdd14c-2753-46ba-8816-2ad81c7c5837\":{\"classDefinition\":\"sap.cdw.ermodeler.Table\",\"name\":\"Sales_Manager\",\"label\":\"Sales Manager\",\"isPinToMemoryEnabled\":false,\"dataCategory\":\"DIMENSION\",\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"elements\":{\"a99fbb3a-291a-4c51-98eb-94397400c617\":{\"name\":\"Sales_Manager_ID\"},\"da3858db-ef7f-4e05-82ef-82f8b27dee63\":{\"name\":\"Sales_Manager_Name\"}}},\"a99fbb3a-291a-4c51-98eb-94397400c617\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"name\":\"Sales_Manager_ID\",\"label\":\"Sales Manager ID\",\"length\":4,\"precision\":0,\"scale\":0,\"isKey\":true,\"isNotNull\":true,\"indexOrder\":0,\"labelElement\":\"da3858db-ef7f-4e05-82ef-82f8b27dee63\"},\"da3858db-ef7f-4e05-82ef-82f8b27dee63\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"semanticType\":\"@Semantics.text\",\"name\":\"Sales_Manager_Name\",\"label\":\"Sales Manager Name\",\"length\":30,\"precision\":0,\"scale\":0,\"indexOrder\":1},\"f571c0f4-78b6-4c6f-9d9b-b75369739126\":{\"classDefinition\":\"sap.cdw.ermodeler.Table\",\"name\":\"Sales_Transactions\",\"label\":\"Sales Transactions\",\"isPinToMemoryEnabled\":false,\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"elements\":{\"950c91e1-0749-4346-bad4-dc08db1390b5\":{\"name\":\"Transaction_ID\"},\"bd811af7-abd6-44ba-9e19-9726dd271acc\":{\"name\":\"Transaction_Date\"},\"a583813e-4ccf-4cfd-b3e4-917e027714b3\":{\"name\":\"Store_ID\"},\"0c53a3ef-b7a0-4451-a6cb-e77c3b77ab3a\":{\"name\":\"Product_ID\"},\"8818d018-881d-4f5b-ab4b-2dbb8053626c\":{\"name\":\"Sales_Manager_ID\"},\"2a8c9042-d570-4468-98b0-fe6988ee8417\":{\"name\":\"Profit\"},\"bf85b495-addb-4f3b-bb28-bcf4a358b190\":{\"name\":\"Discount\"},\"aca47bf9-c4dc-44db-a31e-2154ef4dffd1\":{\"name\":\"Revenue\"},\"798854ca-97f4-4354-a189-25e0e2b3217c\":{\"name\":\"Cost\"}}},\"950c91e1-0749-4346-bad4-dc08db1390b5\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"dataType\":\"cds.Integer64\",\"name\":\"Transaction_ID\",\"label\":\"Transaction ID\",\"length\":0,\"precision\":0,\"scale\":0,\"isKey\":true,\"isNotNull\":true,\"indexOrder\":0},\"bd811af7-abd6-44ba-9e19-9726dd271acc\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"dataType\":\"cds.Date\",\"name\":\"Transaction_Date\",\"label\":\"Transaction Date\",\"length\":0,\"precision\":0,\"scale\":0,\"indexOrder\":1},\"a583813e-4ccf-4cfd-b3e4-917e027714b3\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"name\":\"Store_ID\",\"label\":\"Store ID\",\"length\":6,\"precision\":0,\"scale\":0,\"foreignKey\":\"_Store\",\"indexOrder\":2},\"0c53a3ef-b7a0-4451-a6cb-e77c3b77ab3a\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"name\":\"Product_ID\",\"label\":\"Product ID\",\"length\":4,\"precision\":0,\"scale\":0,\"foreignKey\":\"_Product\",\"indexOrder\":3},\"8818d018-881d-4f5b-ab4b-2dbb8053626c\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"name\":\"Sales_Manager_ID\",\"label\":\"Sales Manager ID\",\"length\":4,\"precision\":0,\"scale\":0,\"foreignKey\":\"_Sales_Man\",\"indexOrder\":4},\"2a8c9042-d570-4468-98b0-fe6988ee8417\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"dataType\":\"cds.Decimal\",\"name\":\"Profit\",\"label\":\"Profit\",\"length\":0,\"precision\":15,\"scale\":2,\"indexOrder\":5},\"bf85b495-addb-4f3b-bb28-bcf4a358b190\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"dataType\":\"cds.Decimal\",\"name\":\"Discount\",\"label\":\"Discount\",\"length\":0,\"precision\":15,\"scale\":2,\"indexOrder\":6},\"aca47bf9-c4dc-44db-a31e-2154ef4dffd1\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"dataType\":\"cds.Decimal\",\"name\":\"Revenue\",\"label\":\"Revenue\",\"length\":0,\"precision\":15,\"scale\":2,\"indexOrder\":7},\"798854ca-97f4-4354-a189-25e0e2b3217c\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"dataType\":\"cds.Decimal\",\"name\":\"Cost\",\"label\":\"Cost\",\"length\":0,\"precision\":15,\"scale\":2,\"indexOrder\":8},\"e2fe0acb-e8a2-439d-8a13-cd358be40634\":{\"classDefinition\":\"sap.cdw.commonmodel.Context\",\"name\":\"SAP\",\"label\":\"SAP\",\"contexts\":{\"863870a2-c2dc-4cc0-965c-f6ac20863aec\":{\"name\":\"TIME\"}}},\"863870a2-c2dc-4cc0-965c-f6ac20863aec\":{\"classDefinition\":\"sap.cdw.commonmodel.Context\",\"name\":\"TIME\",\"label\":\"TIME\"},\"73bec48d-b9d7-4f9e-b3b7-8d8757c002ba\":{\"classDefinition\":\"sap.cdw.ermodeler.Table\",\"name\":\"Store\",\"label\":\"Store\",\"isPinToMemoryEnabled\":false,\"dataCategory\":\"DIMENSION\",\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"elements\":{\"1a792903-e156-4d9f-b58d-e1b89a2b706c\":{\"name\":\"Store_ID\"},\"671be2f6-0dc9-4e97-88d6-64a2283aee0c\":{\"name\":\"Store_Name\"},\"797a0d74-641e-417a-92a0-3f14f1dab486\":{\"name\":\"Store_City\"},\"d1426d5a-de6a-440c-9efc-fc3fa0926be8\":{\"name\":\"State_ID\"},\"397d763c-11a1-4b35-b36d-da380eb943cf\":{\"name\":\"Country\"},\"28504583-23a4-4f80-aeb1-9f56f31b96a7\":{\"name\":\"Latitude\"},\"1e5afc31-a9ae-4c79-8774-40a321e2db39\":{\"name\":\"Longitude\"}}},\"1a792903-e156-4d9f-b58d-e1b89a2b706c\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"name\":\"Store_ID\",\"label\":\"Store ID\",\"length\":6,\"precision\":0,\"scale\":0,\"isKey\":true,\"isNotNull\":true,\"indexOrder\":0,\"labelElement\":\"671be2f6-0dc9-4e97-88d6-64a2283aee0c\"},\"671be2f6-0dc9-4e97-88d6-64a2283aee0c\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"semanticType\":\"@Semantics.text\",\"name\":\"Store_Name\",\"label\":\"Store Name\",\"length\":30,\"precision\":0,\"scale\":0,\"indexOrder\":1},\"797a0d74-641e-417a-92a0-3f14f1dab486\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"name\":\"Store_City\",\"label\":\"Store City\",\"length\":20,\"precision\":0,\"scale\":0,\"indexOrder\":2},\"d1426d5a-de6a-440c-9efc-fc3fa0926be8\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"name\":\"State_ID\",\"label\":\"State ID\",\"length\":2,\"precision\":0,\"scale\":0,\"indexOrder\":3},\"397d763c-11a1-4b35-b36d-da380eb943cf\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"name\":\"Country\",\"label\":\"Country\",\"length\":30,\"precision\":0,\"scale\":0,\"indexOrder\":4},\"28504583-23a4-4f80-aeb1-9f56f31b96a7\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"dataType\":\"cds.Decimal\",\"name\":\"Latitude\",\"label\":\"Latitude\",\"length\":0,\"precision\":15,\"scale\":8,\"indexOrder\":5},\"1e5afc31-a9ae-4c79-8774-40a321e2db39\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"dataType\":\"cds.Decimal\",\"name\":\"Longitude\",\"label\":\"Longitude\",\"length\":0,\"precision\":15,\"scale\":8,\"indexOrder\":6},\"56cd1110-125d-46d5-97b6-0d65fb0f267d\":{\"classDefinition\":\"sap.cdw.ermodeler.Association\",\"name\":\"_Store\",\"label\":\"Sales Transactions to Store\",\"source\":\"f571c0f4-78b6-4c6f-9d9b-b75369739126\",\"target\":\"73bec48d-b9d7-4f9e-b3b7-8d8757c002ba\",\"mappings\":{\"edc17905-ce95-4a43-b02c-a632812082a7\":{}}},\"edc17905-ce95-4a43-b02c-a632812082a7\":{\"classDefinition\":\"sap.cdw.commonmodel.ElementMapping\",\"source\":\"a583813e-4ccf-4cfd-b3e4-917e027714b3\",\"target\":\"1a792903-e156-4d9f-b58d-e1b89a2b706c\"},\"4826c9aa-e926-4d11-9994-889ddc0e9dc2\":{\"classDefinition\":\"sap.cdw.ermodeler.Association\",\"name\":\"_Product\",\"label\":\"Sales Transactions to Product\",\"source\":\"f571c0f4-78b6-4c6f-9d9b-b75369739126\",\"target\":\"cb3baaca-0112-4826-b0d7-934588e918fa\",\"mappings\":{\"2c62eeac-bdb6-42f7-b46a-f93474c24c71\":{}}},\"2c62eeac-bdb6-42f7-b46a-f93474c24c71\":{\"classDefinition\":\"sap.cdw.commonmodel.ElementMapping\",\"source\":\"0c53a3ef-b7a0-4451-a6cb-e77c3b77ab3a\",\"target\":\"9aa17e56-e907-441e-97be-219f87f2e38d\"},\"fa6234c4-78f6-476f-b48e-d2874f52262f\":{\"classDefinition\":\"sap.cdw.ermodeler.Association\",\"name\":\"_Sales_Man\",\"label\":\"Sales Transactions to Sales Manager\",\"source\":\"f571c0f4-78b6-4c6f-9d9b-b75369739126\",\"target\":\"08fdd14c-2753-46ba-8816-2ad81c7c5837\",\"mappings\":{\"1ed43315-ab0a-4454-af55-2671f61c5068\":{}}},\"1ed43315-ab0a-4454-af55-2671f61c5068\":{\"classDefinition\":\"sap.cdw.commonmodel.ElementMapping\",\"source\":\"8818d018-881d-4f5b-ab4b-2dbb8053626c\",\"target\":\"a99fbb3a-291a-4c51-98eb-94397400c617\"},\"d4d5f755-36e9-4fe3-8113-eede5bf40793\":{\"classDefinition\":\"sap.cdw.ermodeler.ui.TableSymbol\",\"x\":-88.19384765625,\"y\":77.88243123852988,\"width\":237.267578125,\"height\":82,\"object\":\"cb3baaca-0112-4826-b0d7-934588e918fa\"},\"7919c822-202d-4e77-a3f0-f8e0597c5917\":{\"classDefinition\":\"sap.cdw.ermodeler.ui.TableSymbol\",\"x\":-88.19384765625,\"y\":209.88243123852988,\"width\":225.6953125,\"height\":58,\"object\":\"08fdd14c-2753-46ba-8816-2ad81c7c5837\"},\"0883db29-dae1-476d-8ebd-4f6a24de137d\":{\"classDefinition\":\"sap.cdw.ermodeler.ui.TableSymbol\",\"x\":-408.6889636516571,\"y\":62.08243123852992,\"width\":230.4951171875,\"height\":142,\"object\":\"f571c0f4-78b6-4c6f-9d9b-b75369739126\"},\"382d669b-14d7-4168-9b10-17b894e59fb7\":{\"classDefinition\":\"sap.cdw.ermodeler.ui.TableSymbol\",\"x\":-88.19384765625,\"y\":-90.11756876147012,\"width\":204.7822265625,\"height\":118,\"object\":\"73bec48d-b9d7-4f9e-b3b7-8d8757c002ba\"},\"467168aa-c8a4-4900-91b2-dd2a29a796f4\":{\"classDefinition\":\"sap.cdw.ermodeler.ui.AssociationSymbol\",\"points\":\"-178.1938464641571,90.4824312385299 -143.19384706020355,90.4824312385299 -143.19384706020355,-31.117568761470125 -88.19384765625,-31.117568761470125\",\"contentOffsetX\":5,\"contentOffsetY\":5,\"sourceSymbol\":\"0883db29-dae1-476d-8ebd-4f6a24de137d\",\"targetSymbol\":\"382d669b-14d7-4168-9b10-17b894e59fb7\",\"object\":\"56cd1110-125d-46d5-97b6-0d65fb0f267d\"},\"229a9db2-add0-4b56-8186-9d1cda9174a2\":{\"classDefinition\":\"sap.cdw.ermodeler.ui.AssociationSymbol\",\"points\":\"-178.1938464641571,118.88243123852988 -88.19384765625,118.88243123852988\",\"contentOffsetX\":5,\"contentOffsetY\":5,\"sourceSymbol\":\"0883db29-dae1-476d-8ebd-4f6a24de137d\",\"targetSymbol\":\"d4d5f755-36e9-4fe3-8113-eede5bf40793\",\"object\":\"4826c9aa-e926-4d11-9994-889ddc0e9dc2\"},\"2a0f6365-cce1-44ab-b55c-dec0d52f9ea5\":{\"classDefinition\":\"sap.cdw.ermodeler.ui.AssociationSymbol\",\"points\":\"-178.1938464641571,147.28243123852985 -123.19384706020355,147.28243123852985 -123.19384706020355,238.88243123852988 -88.19384765625,238.88243123852988\",\"contentOffsetX\":5,\"contentOffsetY\":5,\"sourceSymbol\":\"0883db29-dae1-476d-8ebd-4f6a24de137d\",\"targetSymbol\":\"7919c822-202d-4e77-a3f0-f8e0597c5917\",\"object\":\"fa6234c4-78f6-476f-b48e-d2874f52262f\"}}}",
+        "kind": "sap.dwc.erdiagram"
+      }
+    }
+  },
+  "definitions": {
+    "Product": {
+      "kind": "entity",
+      "@ObjectModel.supportedCapabilities": [
+        {
+          "#": "ANALYTICAL_DIMENSION"
+        }
+      ],
+      "elements": {
+        "Product_ID": {
+          "@EndUserText.label": "Product ID",
+          "type": "cds.String",
+          "length": 4,
+          "key": true,
+          "notNull": true,
+          "@ObjectModel.text.element": [
+            {
+              "=": "Product_Name"
+            }
+          ]
+        },
+        "Product_Name": {
+          "@EndUserText.label": "Product Name",
+          "type": "cds.String",
+          "length": 30,
+          "@Semantics.text": true
+        },
+        "Product_Category_ID": {
+          "@EndUserText.label": "Product Category ID",
+          "type": "cds.String",
+          "length": 4,
+          "@ObjectModel.text.element": [
+            {
+              "=": "Product_Category_Name"
+            }
+          ]
+        },
+        "Product_Category_Name": {
+          "@EndUserText.label": "Product Category Name",
+          "type": "cds.String",
+          "length": 30,
+          "@Semantics.text": true
+        }
+      },
+      "@EndUserText.label": "Product",
+      "@ObjectModel.modelingPattern": {
+        "#": "ANALYTICAL_DIMENSION"
+      }
+    },
+    "Sales_Manager": {
+      "kind": "entity",
+      "@ObjectModel.supportedCapabilities": [
+        {
+          "#": "ANALYTICAL_DIMENSION"
+        }
+      ],
+      "elements": {
+        "Sales_Manager_ID": {
+          "@EndUserText.label": "Sales Manager ID",
+          "type": "cds.String",
+          "length": 4,
+          "key": true,
+          "notNull": true,
+          "@ObjectModel.text.element": [
+            {
+              "=": "Sales_Manager_Name"
+            }
+          ]
+        },
+        "Sales_Manager_Name": {
+          "@EndUserText.label": "Sales Manager Name",
+          "type": "cds.String",
+          "length": 30,
+          "@Semantics.text": true
+        }
+      },
+      "@EndUserText.label": "Sales Manager",
+      "@ObjectModel.modelingPattern": {
+        "#": "ANALYTICAL_DIMENSION"
+      }
+    },
+    "Sales_Transactions": {
+      "kind": "entity",
+      "@ObjectModel.supportedCapabilities": [
+        {
+          "#": "DATA_STRUCTURE"
+        }
+      ],
+      "elements": {
+        "Transaction_ID": {
+          "@EndUserText.label": "Transaction ID",
+          "type": "cds.Integer64",
+          "key": true,
+          "notNull": true
+        },
+        "Transaction_Date": {
+          "@EndUserText.label": "Transaction Date",
+          "type": "cds.Date"
+        },
+        "Store_ID": {
+          "@EndUserText.label": "Store ID",
+          "type": "cds.String",
+          "length": 6,
+          "@ObjectModel.foreignKey.association": {
+            "=": "_Store"
+          }
+        },
+        "Product_ID": {
+          "@EndUserText.label": "Product ID",
+          "type": "cds.String",
+          "length": 4,
+          "@ObjectModel.foreignKey.association": {
+            "=": "_Product"
+          }
+        },
+        "Sales_Manager_ID": {
+          "@EndUserText.label": "Sales Manager ID",
+          "type": "cds.String",
+          "length": 4,
+          "@ObjectModel.foreignKey.association": {
+            "=": "_Sales_Man"
+          }
+        },
+        "Profit": {
+          "@EndUserText.label": "Profit",
+          "precision": 15,
+          "scale": 2,
+          "type": "cds.Decimal"
+        },
+        "Discount": {
+          "@EndUserText.label": "Discount",
+          "precision": 15,
+          "scale": 2,
+          "type": "cds.Decimal"
+        },
+        "Revenue": {
+          "@EndUserText.label": "Revenue",
+          "precision": 15,
+          "scale": 2,
+          "type": "cds.Decimal"
+        },
+        "Cost": {
+          "@EndUserText.label": "Cost",
+          "precision": 15,
+          "scale": 2,
+          "type": "cds.Decimal"
+        },
+        "_Store": {
+          "type": "cds.Association",
+          "on": [
+            {
+              "ref": [
+                "Store_ID"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_Store",
+                "Store_ID"
+              ]
+            }
+          ],
+          "target": "Store",
+          "@EndUserText.label": "Sales Transactions to Store"
+        },
+        "_Product": {
+          "type": "cds.Association",
+          "on": [
+            {
+              "ref": [
+                "Product_ID"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_Product",
+                "Product_ID"
+              ]
+            }
+          ],
+          "target": "Product",
+          "@EndUserText.label": "Sales Transactions to Product"
+        },
+        "_Sales_Man": {
+          "type": "cds.Association",
+          "on": [
+            {
+              "ref": [
+                "Sales_Manager_ID"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "_Sales_Man",
+                "Sales_Manager_ID"
+              ]
+            }
+          ],
+          "target": "Sales_Manager",
+          "@EndUserText.label": "Sales Transactions to Sales Manager"
+        }
+      },
+      "@EndUserText.label": "Sales Transactions",
+      "@ObjectModel.modelingPattern": {
+        "#": "DATA_STRUCTURE"
+      }
+    },
+    "Store": {
+      "kind": "entity",
+      "@ObjectModel.supportedCapabilities": [
+        {
+          "#": "ANALYTICAL_DIMENSION"
+        }
+      ],
+      "elements": {
+        "Store_ID": {
+          "@EndUserText.label": "Store ID",
+          "type": "cds.String",
+          "length": 6,
+          "key": true,
+          "notNull": true,
+          "@ObjectModel.text.element": [
+            {
+              "=": "Store_Name"
+            }
+          ]
+        },
+        "Store_Name": {
+          "@EndUserText.label": "Store Name",
+          "type": "cds.String",
+          "length": 30,
+          "@Semantics.text": true
+        },
+        "Store_City": {
+          "@EndUserText.label": "Store City",
+          "type": "cds.String",
+          "length": 20
+        },
+        "State_ID": {
+          "@EndUserText.label": "State ID",
+          "type": "cds.String",
+          "length": 2
+        },
+        "Country": {
+          "@EndUserText.label": "Country",
+          "type": "cds.String",
+          "length": 30
+        },
+        "Latitude": {
+          "@EndUserText.label": "Latitude",
+          "precision": 15,
+          "scale": 8,
+          "type": "cds.Decimal"
+        },
+        "Longitude": {
+          "@EndUserText.label": "Longitude",
+          "precision": 15,
+          "scale": 8,
+          "type": "cds.Decimal"
+        }
+      },
+      "@EndUserText.label": "Store",
+      "@ObjectModel.modelingPattern": {
+        "#": "ANALYTICAL_DIMENSION"
+      }
+    }
+  },
+  "version": {
+    "csn": "1.0"
+  },
+  "meta": {
+    "creator": "ER Modeler",
+    "kind": "sap.dwc.ermodel",
+    "label": "Sales_ER_Model"
+  },
+  "$version": "1.0"
+}
