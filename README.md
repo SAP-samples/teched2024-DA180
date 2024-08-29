@@ -41,17 +41,17 @@ The exercises in section 5 are all optional and you can learn how to leverage Ju
 	* [First Log On](exercises/ex00/README_FirstLogon.md) 
 	
 2. **SAP Datasphere**
-	* [Exercise 01: Get to know your own Space ](exercises/ex01/README.md) 
-	* [Exercise 02: Prepare Your Data](exercises/ex02/README.md) (optional)
-	* [Exercise 03: Creating the Entity Relationship Model](exercises/ex03/README.md) (optional)
-	* [Exercise 04: Importing Tables ](exercises/ex04/README.md)
-	* [Exercise 05: Uploading Data ](exercises/ex05/README.md) 
-	* [Exercise 06: Creating the Dimension ](exercises/ex06/README.md) 
-	* [Exercise 07: Creating the Fact View and Analytic Model ](exercises/ex07/README.md) 
+	* [Exercise 1: Get to know your own Space ](exercises/ex01/README.md) 
+	* [Exercise 2: Prepare Your Data](exercises/ex02/README.md) (optional)
+	* [Exercise 3: Creating the Entity Relationship Model](exercises/ex03/README.md) (optional)
+	* [Exercise 4: Importing Tables ](exercises/ex04/README.md)
+	* [Exercise 5: Uploading Data ](exercises/ex05/README.md) 
+	* [Exercise 6: Creating the Dimension ](exercises/ex06/README.md) 
+	* [Exercise 7: Creating the Fact View and Analytic Model ](exercises/ex07/README.md) 
 
 4.  **SAP Analytics Cloud**
-	* [Exercise 08: Top 10 Revenue Generating Products ](exercises/ex08/README.md) 
-	* [Exercise 09: Revenue by Geography ](exercises/ex09/README.md) 
+	* [Exercise 8: Top 10 Revenue Generating Products ](exercises/ex08/README.md) 
+	* [Exercise 9: Revenue by Geography ](exercises/ex09/README.md) 
 
 5. **Optional Excecises**
 	* [Exercise 20: Identify Top Sales Managers with Just Ask](exercises/ex20/README.md) 
