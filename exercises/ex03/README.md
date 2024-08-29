@@ -1,4 +1,4 @@
-# Exercise 03 - Creating the Entity-Relationship Model
+# Exercise 3 - Creating the Entity-Relationship Model
 
 >:memo: **Note:** This is an Optional Exercise
 
