@@ -1,4 +1,4 @@
-# Exercise 02 - Data Layer - Prepare Your Data
+# Exercise 2 - Data Layer - Prepare Your Data
 
 > :memo: **Note:** This is an Optional Exercise
 
