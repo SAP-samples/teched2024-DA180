@@ -1,4 +1,4 @@
-# Exercise 04 - Importing Tables
+# Exercise 4 - Importing Tables
 
 > :boom: **Important:** :boom: <br>
 This exercise is only required in case you ***did not*** create the tables in [Exercise 02 - Prepare Your Data (optional) ](../ex02/README.md) and the Entity-Relationship Model for our sample model manually in [Exercise 03 - Creating the Entity-Relationship Model (optional) ](../ex03/README.md) and prefer to import them.
