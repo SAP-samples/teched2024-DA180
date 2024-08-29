@@ -1,4 +1,4 @@
-# Exercise 05 - Uploading Data
+# Exercise 5 - Uploading Data
 
 In this exercise, we will populate the tables we have created in the previous steps, so that we have data for the analysis. These exercises use data from CSV files to allow an easy repetition in any SAP Datasphere tenant. To discover the various connectivity options of SAP Datasphere, please have a look at [the details available here](https://help.sap.com/docs/SAP_DATASPHERE/9f804b8efa8043539289f42f372c4862/bffbd58c15784a62af0520f171018ded.html) or explore the connections available in the app ***Connections*** (click on the according icon on the left side).
 
