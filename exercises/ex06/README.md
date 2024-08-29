@@ -1,4 +1,4 @@
-# Exercise 06 - Creating the Dimension 
+# Exercise 6 - Creating the Dimension 
 
 In this exercise, we will create a new view of the semantic type dimension based on our previously created table. We will enhance this data by configuring a geographic enrichment so that we can visualize the store location on a geo map later in SAP Analytics Cloud.
 
