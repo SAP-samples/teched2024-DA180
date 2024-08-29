@@ -1,4 +1,4 @@
-# Exercise 07 - Creating the View & Analytic Model
+# Exercise 7 - Creating the View & Analytic Model
 
 ## :beginner: Detour: SAP Datasphere - Views & Analytic Models
 
