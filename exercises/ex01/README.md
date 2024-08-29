@@ -1,4 +1,4 @@
-# Exercise 01: Get to know your own Space
+# Exercise 1: Get to know your own Space
 
 > :memo: **Note:** This is an optional exercise.
 
