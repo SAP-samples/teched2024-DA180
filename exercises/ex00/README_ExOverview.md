@@ -31,16 +31,19 @@ We structured the overall exercise the following way:
 	  
    You can [manually create the tables](../ex02/README.md) and the [entity relationship model](../ex03/README.md), or directly generate the tables and ER model by using the [importing the tables](../ex04/README.md) provided with the [CSN file](https://cap.cloud.sap/docs/cds/csn) called *Sales_ER_Model.json*.
    
-   Then you populate the tables with data by [uploading data files](../ex05/README.md) using the CSV files from the ZIP file. Based on this tables you then [create a dimension view](../ex06/README.md) as well as an [fact view and an analytic models](../ex07/README.md).
+   Then you populate the tables with data by [uploading data files](../ex05/README.md) using the CSV files from the ZIP file. Based on these tables you then [create a dimension view](../ex06/README.md) as well as an [fact view and an analytic model](../ex07/README.md).
 	
 ## 3. **SAP Analytics Cloud**
 
-   In this part you will create simple stories in SAP Analytics Cloud to learn how to visualize your data based on a live connection to SAP Datasphere. The first story shows a [Top 10 Revenue Generating Products](../ex12/README.md) and the second the [Revenue by Geography](../ex13/README.md). Both require the previous exercises to be completed up to exercise 08. 
+   In this part you will create simple stories in SAP Analytics Cloud to learn how to visualize your data based on a live connection to SAP Datasphere. The first story shows a [Top 10 Revenue Generating Products](../ex08/README.md) and the second the [Revenue by Geography](../ex09/README.md). Both require the previous exercises to be completed up to exercise 08. 
    
-   The final story about the [Best Salesperson](../ex14/README.md) can only be completed if you finished the exercise 09 to 11.
-
 ## 4. **Optional Exercises**
-
+      
+   These exercises are all optional and you can learn how to 
+   * leverage Just Ask with SAP Analytics Cloud to [Identify Top Sales Managers with Just Ask](exercises/ex20/README.md) 
+	* enable row-level security with Data Access Controls by [Creating Row-Level Permissions based on External Hierarchy](exercises/ex21/README.md) 
+   * [explore more features of the Analytic Model](exercises/ex22/README.md) 
+	* and learn about Transformation Flows by [Creating a Transformation Flow and the usage of delta tables ](exercises/ex23/README.md) 
 
 
 ## Summary
