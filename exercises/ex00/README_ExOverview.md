@@ -40,13 +40,12 @@ We structured the overall exercise the following way:
 ## 4. **Optional Exercises**
       
    These exercises are all optional and you can learn how to 
-   * leverage Just Ask with SAP Analytics Cloud to [Identify Top Sales Managers with Just Ask](exercises/ex20/README.md) 
-
-	* enable row-level security with Data Access Controls by [Creating Row-Level Permissions based on External Hierarchy](exercises/ex21/README.md) 
+* leverage Just Ask with SAP Analytics Cloud to [Identify Top Sales Managers with Just Ask](exercises/ex20/README.md) 
+* enable row-level security with Data Access Controls by [Creating Row-Level Permissions based on External Hierarchy](exercises/ex21/README.md) 
    
-   * [explore more features of the Analytic Model](exercises/ex22/README.md) 
+* [explore more features of the Analytic Model](exercises/ex22/README.md) 
 	
-   * and learn about Transformation Flows by [Creating a Transformation Flow and the usage of delta tables ](exercises/ex23/README.md) 
+* and learn about Transformation Flows by [Creating a Transformation Flow and the usage of delta tables ](exercises/ex23/README.md) 
 
 
 ## Summary
