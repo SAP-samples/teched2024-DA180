@@ -27,21 +27,20 @@ We structured the overall exercise the following way:
    
    This section covers the main modeling exercises where you prepare tables, views and an analytic model to build the foundation for the stories in SAP Analytics Cloud.
 
-   The first exercise in [#1: Get to know your own Space](../ex01/README.md) where you learn more about Spaces and the ***Time Dimension*** required for your modeling in later parts of the exercise.
+   In the first exercise [Get to know your own Space](../ex01/README.md) you learn more about Spaces and the ***Time Dimension*** required for your modeling in later parts of the exercise.
 	  
-   This is the core part of the modeling exercise. You can [manually create the tables](../ex03/README.md) and the [entity relationship model](../ex04/README.md), or use the ***Fast Track*** by [importing the tables](../ex05/README.md) provided with the [CSN file](https://cap.cloud.sap/docs/cds/csn) called *Sales_ER_Model.json*.
+   You can [manually create the tables](../ex02/README.md) and the [entity relationship model](../ex03/README.md), or directly generate the tables and ER model by using the [importing the tables](../ex04/README.md) provided with the [CSN file](https://cap.cloud.sap/docs/cds/csn) called *Sales_ER_Model.json*.
    
-   Then you populate the tables with data by [uploading data files](../ex06/README.md) using the CSV files from the ZIP file. Based on this tables you then [create a dimension view](../ex07/README.md) as well as an [analytical dataset](../ex08/README.md).
+   Then you populate the tables with data by [uploading data files](../ex05/README.md) using the CSV files from the ZIP file. Based on this tables you then [create a dimension view](../ex06/README.md) as well as an [fact view and an analytic models](../ex07/README.md).
 	
-## 4. **SAP Datasphere – Business Layer**
-
-   The exercises in the Business Layer are ***optional***. <br> However, if you are interested you will learn how to create a Business Layer [dimension](../ex09/README.md), a Business Layer [fact](../ex10/README.md), and a [consumption model](../ex11/README.md).
-	
-## 5. **SAP Analytics Cloud**
+## 3. **SAP Analytics Cloud**
 
    In this part you will create simple stories in SAP Analytics Cloud to learn how to visualize your data based on a live connection to SAP Datasphere. The first story shows a [Top 10 Revenue Generating Products](../ex12/README.md) and the second the [Revenue by Geography](../ex13/README.md). Both require the previous exercises to be completed up to exercise 08. 
    
    The final story about the [Best Salesperson](../ex14/README.md) can only be completed if you finished the exercise 09 to 11.
+
+## 4. **Optional Exercises**
+
 
 
 ## Summary
