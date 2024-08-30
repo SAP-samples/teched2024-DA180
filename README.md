@@ -35,7 +35,7 @@ The ***Optional Exercises*** are only relevant if you want to learn more about t
 The exercises in section 5 are all optional and you can learn how to leverage Just Ask with SAP Analytics Cloud (#20), enable row-level security with Data Access Controls (#21), explore more features of the Analytic Model (#22) and learn about Transformation Flows and the usage of delta tables (#23).
 
 1. **Getting Started**
-	* [Exercise Overview](exercises/ex00/README_ExOverview.md) **NEEDS UPDATE ONCE ALL EXERCISES ARE FINALIZED + EXERCISE FLOW GRAPHIC**
+	* [Exercise Overview](exercises/ex00/README_ExOverview.md) 
 	* [Overview about the Business Scenario & the Data Model](exercises/ex00/README.md) 
 	* [Get your basic trial system](exercises/ex00/README_GuidedTrial.md) 
 	* [First Log On](exercises/ex00/README_FirstLogon.md) 
