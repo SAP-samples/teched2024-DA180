@@ -19,16 +19,16 @@ We structured the overall exercise the following way:
    
    In this area you get an [overview about the business scenario & the data model](README.md) used throughout the exercises.
    
-   We also give you guidance how to [get your guided experience trial system](README_GuidedTrial.md) in case you do not have access to a SAP Datasphere system already.
+   We also give you guidance how to [get your basic trial access](README_GuidedTrial.md) in case you do not have access to a SAP Datasphere system already. 
+   
+   If you have never touched an SAP Datasphere system you can get an overview about your [first log on](../README_FirstLogon.md) and how you navigate in the system. 
 	
 ## 2. **SAP Datasphere**
    
-   In this section you get an overview about your [first log on](../ex01/README.md) and how you navigate in the system in case you have never used SAP Datasphere before. 
-   
-   The first **mandatory** exercise in [#02: Get to know your own Space](../ex02/README.md) where you learn more about Spaces and create the ***Time Dimension*** required for your modeling in later parts of the exercise.
-	  
-## 3. **SAP Datasphere – Data Builder**
+   This section covers the main modeling exercises where you prepare tables, views and an analytic model to build the foundation for the stories in SAP Analytics Cloud.
 
+   The first exercise in [#1: Get to know your own Space](../ex01/README.md) where you learn more about Spaces and the ***Time Dimension*** required for your modeling in later parts of the exercise.
+	  
    This is the core part of the modeling exercise. You can [manually create the tables](../ex03/README.md) and the [entity relationship model](../ex04/README.md), or use the ***Fast Track*** by [importing the tables](../ex05/README.md) provided with the [CSN file](https://cap.cloud.sap/docs/cds/csn) called *Sales_ER_Model.json*.
    
    Then you populate the tables with data by [uploading data files](../ex06/README.md) using the CSV files from the ZIP file. Based on this tables you then [create a dimension view](../ex07/README.md) as well as an [analytical dataset](../ex08/README.md).
