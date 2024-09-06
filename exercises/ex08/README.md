@@ -1,6 +1,6 @@
 # Exercise 8 - Top 10 Revenue Generating Products
 
-In this exercise, we will cerate a story in SAP Analytics Cloud, which allows us to view the Top 10 Revenue Generating Products.
+In this exercise, we will create a story in SAP Analytics Cloud, which allows us to view the Top 10 Revenue Generating Products.
 
 1. Log On to your SAP Analytics Cloud tenant.
 <br>![](images/00_00_0221.png) 
@@ -69,14 +69,11 @@ In this exercise, we will cerate a story in SAP Analytics Cloud, which allows us
 21. We want to visualize the change of revenue along time in an additional chart. Drag a new chart into the new canvas.
 <br>![](images/00_00_0228.png) 
 
-22. Set the following settings:<br> <ul><li>Select ***Line*** as Chart Type.</li><li>The measure for ***Left Y-Axis*** is ***Revenue***.</li><li>Select ***Transaction Date*** as Dimension***</li><li>Filter ***Product Category ID*** to ***Juices***</li></ul>
+22. Set the following settings:<br> <ul><li>Select ***Line*** as Chart Type.</li><li>The measure for ***Left Y-Axis*** is ***Revenue***.</li><li>Select ***Transaction Date*** as ***Dimension***</li><li>Filter ***Product Category ID*** (Member) to ***Juices***</li></ul>
 <br>![](images/00_00_0229.png) 
 
-23. Use the time hierarchy defined for ***Transaction Date*** to have a quarter based analysis. Set the hierarchy to ***Year, Quarter, Month, Day***.
+23. Use the time hierarchy defined for ***Transaction Date*** to have a quarter based analysis. Set the hierarchy to ***Year, Quarter, Month, Day*** by clicking on ***Change Hierarchy***. Adjust the level to ***Level 3*** so that the revenue is displayed per quarter.
 <br>![](images/00_00_0231.png) 
-
-23. Set the hierarchy level to ***Level 3*** so that the revenue is displayed per quarter.
-<br>![](images/00_00_0232.png) 
 
 24. You can modify the style of your story and for example add elements, headings or adjust headings.
 <br>![](images/00_00_0233.png) 
@@ -86,7 +83,7 @@ In this exercise, we will cerate a story in SAP Analytics Cloud, which allows us
 26. Create a folder that matches your space name,  e.g. ***GE12345***.
 <br>![](images/00_00_0224.png) 
 
-27. Enter a Name and Description like ***Top 10 Revenue Generating Products***.
+27. Enter a name and a description like ***Revenue Analysis - Products***.
 
 28. Click OK.
 
