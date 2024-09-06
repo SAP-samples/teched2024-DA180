@@ -81,11 +81,10 @@ in our example called ***View 1***.
 23. Once the view has been successfully deployed, you can create your Analytic Model by selecting the according option on the right-hand side.
 <br>![](images/00_00_0888.png)
 
-24. You should now be within your Analytic Model as depicted below. You are able to see the sales fact view and its associated dimensions that you added previously. 
-<br>![](images/00_00_0889.png)
+24. You are now within your Analytic Model as depicted below. You are able to see the sales fact view and its associated dimensions that you added previously. 
+<br>![](images/00_00_004.png)
 
-25. ***Deploy*** your Analytic Model.
-26. Select the folder "TECHED2024-DA180", enter ***Sales - Analytic Model*** as Business Name and click ***Save***. The Technical Name is generated automatically.
+25. ***Save*** and ***deploy*** your Analytic Model with the business name ***Sales - Analytic Model*** (the technical name is generated). Select the folder "TECHED2024-DA180".
 
 ## Summary
 
