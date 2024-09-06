@@ -25,7 +25,7 @@ In this exercise, we will create a new view of the semantic type dimension based
 <br>
  
 10. Now click on the table ***Store*** on the canvas.
-<br>![](images/00_00_0075.png) 
+<br>![](images/00_00_0002.png) 
 
 11. When you select the table on the canvas, you have the following options (top to bottom)<br><ul><li> You can add filter on top of the source entity.</li><li> You can rename or hide columns as part of a projection.</li><li> You can add Calculated Columns.</li><li> You can add an Aggregation View.</li><li> You can add additional tables / views based on suggested joins, which are based on your Entity
 Relationship model.</li><li>You can preview the data.</li><li>You can open the Impact & Lineage Analysis </li><li> You can open the table in the editor.
@@ -39,10 +39,10 @@ Relationship model.</li><li>You can preview the data.</li><li>You can open the I
 
 14. Navigate to the properties on the right-hand side.
 
-15. Click on the ***+*** sign and select the option Geo-Coordinates Column.
+15. Click on the ***+*** sign and select the option ***Geo-Coordinates Column***.
 <br>![](images/00_00_0079.png) 
  
-16. You are presented with the properties for the new column Configure the following details:<br><ul><li> Business Name: Store Location</li><li> Technical Name: Store_Location</li><li> Latitude: Latitude</li><li> Longitude: Longitude
+16. You are presented with the properties for the new column. Configure the following details:<br><ul><li> Business Name: Store Location</li><li> Technical Name: Store_Location</li><li> Latitude: Latitude</li><li> Longitude: Longitude
 <br>![](images/00_00_0001.png) 
 <br>
 
@@ -69,7 +69,7 @@ Relationship model.</li><li>You can preview the data.</li><li>You can open the I
 
 ## Summary
 
-You've now created your dimension view ***Dimension Store*** including the added geo-coordinates column ***Store location***, which is required to use visualizations on maps within SAP Analytics Cloud.
+You've now created your dimension view ***Dimension Store*** including the added geo-coordinates column ***Store location***, which is required to use visualizations on geo maps within SAP Analytics Cloud.
 
 Continue to - [Exercise 07: Creating the View ](../ex07/README.md)
 

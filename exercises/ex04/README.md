@@ -47,7 +47,7 @@ We will now import the table definitions in form of a JSON file by importing a E
 18. In the panel on the right-hand side (section ***Mappings***), create a join between the columns ***Transaction Date*** and ***Date***.
 <br>![](images/00_00_0410.png) 
 
-19. You can use the option ***Auto Layout** in the toolbar to arrange all entities.
+19. You can use the option ***Auto Layout*** in the toolbar to arrange all entities.
 <br>![](images/00_00_0411.png) 
 
 20. Your Entity-Relationship Model should look like the image shown below
@@ -55,7 +55,7 @@ We will now import the table definitions in form of a JSON file by importing a E
 
 21. Save the changes to your Entity-Relationship Model by using the ***Save option*** in the ***General*** menu.
 
-24. Deploy the model using the ***Deploy** option in the menu bar.
+24. Deploy the model using the ***Deploy*** option in the menu bar.
 
 ## Summary
 

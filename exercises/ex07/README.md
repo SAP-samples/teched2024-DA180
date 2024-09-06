@@ -59,26 +59,33 @@ in our example called ***View 1***.
 15. Verify that your graphical view has four measures.
 <br>![](images/00_00_0001.png)  
 
-
 16. Scroll down to the section ***Associations***. Click the ***+*** icon to add a new association. As the source of the view has associations itself, you can copy those instead of creating them again. Select ***Copy from Source***.
 <br>![](images/00_00_0088.png) 
   
-17. Select all available source associations and click ***Create***. 
+17. Select the available source associations for Product ID, Sales Manager ID and Transaction Date. Click ***Create***. 
 <br>![](images/00_00_0089.png)   
 
-18. Save the view in the folder "TECHED2024-DA180". You will be asked to confirm and ***Save*** the Business Name and Technical Name.
+18. As we created a new dimension view to add a column containing geographic coordinates, create a new association by selecting ***Association***. 
 
-19. Deploy your view. 
+19. Choose ***Dimension Store*** (View - Dimension) and click on ***Select***.
+<br>![](images/00_00_0002.png)   
+
+20. Verify that the mapping is done correctly on the column ***Store ID***.
+<br>![](images/00_00_0003.png)   
+
+21. Save the view in the folder "TECHED2024-DA180". You will be asked to confirm and ***Save*** the Business Name and Technical Name.
+
+22. Deploy your view. 
 <br>![](images/00_00_0886.png)  
 
-20. Once the view has been successfully deployed, you can create your Analytic Model by selecting the according option on the right-hand side.
+23. Once the view has been successfully deployed, you can create your Analytic Model by selecting the according option on the right-hand side.
 <br>![](images/00_00_0888.png)
 
-21. You should now be within your Analytic Model as depicted below. You are able to see the sales fact view and its associated dimensions that you added previously. 
+24. You should now be within your Analytic Model as depicted below. You are able to see the sales fact view and its associated dimensions that you added previously. 
 <br>![](images/00_00_0889.png)
 
-22. ***Deploy*** your Analytic Model.
-23. Select the folder "TECHED2024-DA180", enter ***Sales - Analytic Model*** as Business Name and click ***Save***. The Technical Name is generated automatically.
+25. ***Deploy*** your Analytic Model.
+26. Select the folder "TECHED2024-DA180", enter ***Sales - Analytic Model*** as Business Name and click ***Save***. The Technical Name is generated automatically.
 
 ## Summary
 
