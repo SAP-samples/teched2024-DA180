@@ -53,34 +53,35 @@ You can specify the following types of hierarchies:
 <br>![](images/00_00_0005.png) 
 
 ## Create a Permission Entity
-A permission entity (view or table) lists SAP Datasphere user IDs (in the form required by your identity provider) and assigns them to one or more criteria. 
+A permission entity (view or table) lists SAP Datasphere user IDs (in the form required by your identity provider) and assigns them to one or more criteria. In this example, you will define criteria for your own user so that you only see products belonging to the category/sub-categories of non-alcoholic beverages.
 
 1. Select the option ***New Table*** in the Data Builder.
 
 2. Enter the following details:<br><ul><li>Business Name - Permission Entity Product Category </li><li>Technical Name - PE_ProductCategory</li><li>Semantic Usage - Relational Dataset<br>
 <br>  
 
-3. Enter the following attributes:
+3. Enter the following columns:
  
 | Key: | Business Name:        | Technical Name:                       | Data Type:          | Text/Association          |
 |:-----|:----------------------|:--------------------------------------|:--------------------|:----------------------|
 | X    | Record ID         | Record_ID                     | Integer         |                | 
-|      | User ID         | User_ID                       | String (30)         |                |      
+|      | User ID         | User_ID                       | String (50)         |                |      
 |      | Product Category      | Parent_Category                       | String (30)          |                 |      
 
 
 4. Verify your configuration.
 <br>![](images/00_00_0007.png) 
 
-5. Save and deploy the table.
+5. Save and deploy the table in the folder TECHED2024-DA180.
 
 6. After the table is deployed, open the data editor to add records.
+<br>![](images/00_00_0007.5.png) 
 
-7. Add the following record to the table:
+7. Add the following record to the table. Replace the first part of the email address below for user id with the name of your user (same name as the space). You could also copy your email address if you go to ***Profile*** in the upper right corner and select ***Settings***.
 
 | Record ID                 	| User ID        	| Product Category        | 
 |-----------------------	|---------------	| ---------------	|
-|          1      	| USER ID     	|  Non-Alcoholic     	| 
+|          1      	| geXXXXXX@sapexperienceacademy.com     	|  Non-Alcoholic     	| 
 
 8. Save the added record.
 <br>![](images/00_00_0008.png) 
@@ -102,28 +103,50 @@ We want to protect the data of our sales transactions based on this parent-child
 4. Verify that your settings look like in the screenshot below:
 <br>![](images/00_00_0009.png)
 
-5. Save and deploy your new Data Access Control entity.
+5. Save and deploy your new Data Access Control entity in the folder TECHED2024-DA180.
 
 ## Apply the Data Access Control Entity to a View
-1. Open your previously created view ***Sales_View***.
+1. Open your previously created view ***Sales View – Fact***(***Sales_View__Fact***).
 
 2. The attributes which are authorization-relevant need to be part of the fact view. Drag the table ***Product*** into the editor (join).
 
 3. Set the Join Type to ***Left*** and the cardinality to Many (***Sales Transactions***) to Exactly One (***Product***). Map the columns ***Product ID***.
 <br>![](images/00_00_0012.png)
 
-4. In the model properties, add a new Data Access Control.
+4. Open the Projection Node. The column ***Product ID*** of the table ***Sales Transactions*** is hidden while the column derived from the table ***Product*** (dimension) is visible. We do not want to keep ***Product ID*** as a key, therefore exclude the column ***Product ID*** (Key from ***Products***) and include ***Product ID*** (***Sales Transactions***).
+<br>![](images/00_00_0016.png)
+
+>:bulb: If you select the column in any diagram node you can trace the lineage back to the source.
+
+5. Go to the association which points to the dimension ***Product*** and maintain the mapping (Product ID to Product ID) as this got lost because of the join.
+
+6. In the model properties, add a new Data Access Control.
 <br>![](images/00_00_0010.png)
 
-5. Select the previously created DAC ***DAC_ProductCategory***.
+7. Select the previously created DAC ***DAC_ProductCategory***.
 <br>![](images/00_00_0011.png)
 
-6. Map the two columns named ***Product Category Name***.
+8. Map the two columns named ***Product Category Name*** (enter the name in the **Search** Field).
 <br>![](images/00_00_0013.png)
 
-7. Save and deploy the view ***Sales_View***.
+9. Set the Alias of the table ***Product*** to ***ProductDim_DAC***.
+<br>![](images/00_00_0017.png)
 
-8. Open the data preview and validate that you can only see sales for products of the category Non-Alcoholic.
+10. Save and deploy the view ***Sales_View -  Fact***. If you see the validation message warning that an association has been changed, click ***Deploy Anyway***.
+<br>![](images/00_00_0017.png)
+
+11. Open the data preview and validate that you can only see sales for non-alcoholic data products. 
+<br>![](images/00_00_0018.png)
+
+12. Add a filter for ***Product Category Name***.
+<br>![](images/00_00_0019.png)
+
+13. Filter on records which contain values equal to ***Alcohol***. This search should not display any value.
+<br>![](images/00_00_0020.png)
+
+> :boom: **Important:** :boom: <br>
+Please consider that you will now only see a limited amount of records due to the assigned data access control. You can modify the data record of the permission table ***PE_ProductCategory*** and replace the value in the column ***Product Category*** (Non-Alcoholic) with Beverages so that you see all records again when going through other exercises.
+
 
 ## Summary
 
