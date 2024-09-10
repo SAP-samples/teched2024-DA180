@@ -1,0 +1,7 @@
+﻿Child,Parent
+Alcohol,Beverages
+Non-Alcoholic,Beverages
+Carbonated Drinks,Non-Alcoholic
+Energy Drinks,Non-Alcoholic
+Juices,Non-Alcoholic
+Others,Beverages

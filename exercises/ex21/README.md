@@ -1,20 +1,20 @@
-# Exercise 21 - Create Row-Level Permissions based on External Hierarchy
+# Exercise 21 - Create Row-Level Permissions based on an External Hierarchy
 
 >:memo: **Note:** This is an OPTIONAL exercise.
 
 ---
 
-## :beginner: Detour: SAP Datasphere - Hierarchies
+## :beginner: Detour: SAP Datasphere - Hierarchies and Data Access Controls
 
-You can specify the following types of hierarchy:
+You can specify the following types of hierarchies:
 
-Parent-Child - the hierarchy is recursive, may have any number of levels, and is defined by specifying a parent column and a child column within the dimension. For example, a departmental hierarchy could be modeled with the Parent Department ID and Department ID columns.
+**Parent-Child** - the hierarchy is recursive, may have any number of levels, and is defined by specifying a parent column and a child column within the dimension. For example, a departmental hierarchy could be modeled with the Parent Department ID and Department ID columns.
 
-Level-Based - the hierarchy is non-recursive, has a fixed number of levels, and is defined by specifying two or more level columns within the dimension. For example, a time hierarchy could be modeled with the: Year, Quarter, Month, Week, and Day columns.
+**Level-Based** - the hierarchy is non-recursive, has a fixed number of levels, and is defined by specifying two or more level columns within the dimension. For example, a time hierarchy could be modeled with the: Year, Quarter, Month, Week, and Day columns.
 
-External Hierarchy - the parent-child hierarchy information is contained in a separate entity, which needs to be associated with the dimension (see Create an External Hierarchy for Drill-Down).
+**External Hierarchy** - the parent-child hierarchy information is contained in a separate entity, which needs to be associated with the dimension (see Create an External Hierarchy for Drill-Down).
 
-Data access controls can be defined using criteria as hierarchy values. Each user can only see the records that match the hierarchy values she is authorized for in the permissions entity, along with any of their descendents. Only external hierarchies with a single pair of parent-child columns are supported. 
+**Data access controls** allow you to apply row-level security to your objects. There are different options how to specify criteria which user is allowed to see which user. One option is the definition based on a hierarchy. Each user can only see the records that match the hierarchy values she is authorized for in the permissions entity, along with any of their descendents. Only external hierarchies with a single pair of parent-child columns are supported. 
 
 ## End of Detour
 
@@ -44,24 +44,12 @@ Data access controls can be defined using criteria as hierarchy values. Each use
 6. Now select the column ***Parent Category*** as parent and the column ***Child Category*** as child. Notice that the validation icon in the upper right corner turns green. 
 <br>![](images/00_00_0003.png) 
 
-7. Save and deploy your hierarchy table. 
+7. Save and deploy your hierarchy table in the folder TECHED2024-DA180. 
 
-8. Open the data editor to insert records.
+8. Download the CSV file and upload the data to the table. 
 <br>![](images/00_00_0004.png) 
 
-
-9. Add the following six entries to the table:
-
-| Child                 	| Parent        	| 
-|:-----------------------	|:---------------	|
-|          Alcohol      	| Beverages     	| 
-| Non-Alcoholic         	| Beverages     	|    
-|     Carbonated Drinks 	| Non-Alcoholic 	|     
-|     Energy Drinks     	| Non-Alcoholic 	|     
-|     Juices            	| Non-Alcoholic 	|   
-|     Others            	| Beverages     	|  
-
-10. Confirm the data entries and save.
+9. Confirm the data entries in the data preview.
 <br>![](images/00_00_0005.png) 
 
 ## Create a Permission Entity
