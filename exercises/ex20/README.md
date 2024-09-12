@@ -36,7 +36,8 @@ In this exercise, we will utilize Just Ask to query our data model by asking que
 
 6. The **Successfully Added** message will appear with the information that this model will only be available during the current sessions. Click "OK".
 
-7. Now enter your question into the search bar: ***Who is the best sales manager based on revenue?*** 
+7. Now enter your question into the search bar: ***Who is the best sales manager based on revenue?*** To run the search, press enter or click on the magnifying glass symbol.
+<br>![](images/00_00_0223.png)
 
 8. Kiran Raj is identified as the sales manager generating the most revenue. You can check which settings have been automatically set based on your question (sorting and ranking in addition to the correct identified attribute and measure).
 <br>![](images/00_00_0207.png)
