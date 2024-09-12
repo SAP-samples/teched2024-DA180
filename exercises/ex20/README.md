@@ -41,7 +41,9 @@ In this exercise, we will utilize Just Ask to query our data model by asking que
 8. Kiran Raj is identified as the sales manager generating the most revenue. You can check which settings have been automatically set based on your question (sorting and ranking in addition to the correct identified attribute and measure).
 <br>![](images/00_00_0207.png)
 
-8. 
+9. ***Show revenue by sales manager as a pie chart*** 
+
+10. 
 
 
 
