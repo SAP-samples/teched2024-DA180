@@ -12,7 +12,7 @@ Just Ask is the natural language query feature powered by artificial intelligenc
 
 In this exercise, we will utilize Just Ask to query our data model by asking questions in everyday English. We want to identify the best sales managers of our company.
 
-1. Log On to your SAP Analytics Cloud tenant.
+1. Access the SAP Analytics Cloud tenant you got access to as part of the basic trial.
 <br>![](images/00_00_0221.png) 
 <br>
 
@@ -34,7 +34,20 @@ In this exercise, we will utilize Just Ask to query our data model by asking que
 5. Select "DATASPHERE" as the connection on the left panel, select your space and click on the before created Analytic Model "Sales_Analytic_Model".
 <br>![](images/00_00_0204.png)
 
-6. The "Successfully Added" message will appear with the information that this model will only be available during the current sessions. Click "OK".
+6. The **Successfully Added** message will appear with the information that this model will only be available during the current sessions. Click "OK".
+
+7. Now enter your question into the search bar: ***Who is the best sales manager based on revenue?*** 
+
+8. Kiran Raj is identified as the sales manager generating the most revenue. You can check which settings have been automatically set based on your question (sorting and ranking in addition to the correct identified attribute and measure).
+<br>![](images/00_00_0207.png)
+
+8. 
+
+
+
+
+
+SAC Just Ask: Sales Revenue compared to XY (Variance), Top 5, show me sales revenue for all managers, pie chart, top5, in 2022, …
 
 7. Now enter your question into the search bar. As we are interested in the top-performing sales managers, enter "Who are the top 5 best sales managers based on sales revenue in 2022?" and run the search.
 <br>![](images/00_00_0205.png)
