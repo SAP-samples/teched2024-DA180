@@ -39,12 +39,16 @@ In this exercise, we will utilize Just Ask to query our data model by asking que
 7. Now enter your question into the search bar: ***Who is the best sales manager based on revenue?*** To run the search, press enter or click on the magnifying glass symbol.
 <br>![](images/00_00_0223.png)
 
-8. Kiran Raj is identified as the sales manager generating the most revenue. You can check which settings have been automatically set based on your question (sorting and ranking in addition to the correct identified attribute and measure).
+8. The search result is displayed as a card under the search field. Kiran Raj is identified as the sales manager generating the most revenue. You can check which settings have been automatically set based on your question (sorting and ranking in addition to the correct identified attribute and measure).
 <br>![](images/00_00_0207.png)
 
-9. ***Show revenue by sales manager as a pie chart*** 
+9. Compare him with the other sales managers. This time, the result should be displayed as a pie chart. Enter the following in the search bar on the top and search: ***Show revenue by sales manager as a pie chart*** 
+<br>![](images/00_00_0224.png)
 
-10. 
+10. The pie chart below is displayed. Kiran Raj is responsible for 20% of the generated revenue. 
+<br>![](images/00_00_0225.png)
+
+11. Was there a change of generated revenue by him over the last years?
 
 
 
