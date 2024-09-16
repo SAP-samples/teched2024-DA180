@@ -31,7 +31,7 @@ In this exercise, we will utilize Just Ask to query our data model by asking que
 4. Click the model icon left to the search bar and select "Add Model to Search".
 <br>![](images/00_00_0222.png) 
 
-5. Select "DATASPHERE" as the connection on the left panel, select your space and click on the before created Analytic Model "Sales_Analytic_Model".
+5. Select ***DATASPHERE*** as the connection on the left panel, select your space and click on the before created Analytic Model "Sales_Analytic_Model".
 <br>![](images/00_00_0204.png)
 
 6. The **Successfully Added** message will appear with the information that this model will only be available during the current sessions. Click "OK".
@@ -54,7 +54,7 @@ In this exercise, we will utilize Just Ask to query our data model by asking que
 12. The chart visualizes the change of generated revenue. A filter is defined for sales manager and the drill level for the transaction date was adjusted to display months.
 <br>![](images/00_00_0226.png)
 
-13. The display mode can be switched to table.
+13. If you prefer to view the query result in a table format, you can change the display mode to table.
 <br>![](images/00_00_0227.png)
 
 
