@@ -27,7 +27,7 @@ Assume that the STORE_ID includes the prefix ***US*** which we remove so that we
 5. Click on the ***View Transform*** node and select the ***Graphical View Transform*** option.
 <br>![](images/00_00_0003.png)  
 
-6. Drag and drop the table ***SHARE_SALES_TRANSACTIONS*** into the editor. The details on the right-hand side display that this shared table is capturing delta. 
+6. Drag and drop the table ***SHARE_SALES_TRANSACTIONS*** into the editor. The details on the right-hand side display that this shared table is capturing delta. (If you don't see this table, ensure that you are in the ***Graphical View Editor***.)
 <br>![](images/00_00_0004.png)  
 
 7. If you scroll down, ensure that ***Load from Table*** is set to ***Delta Capture***. As the delta capture setting is enabled for the source table, the columns ***Change Date*** and ***Change Type*** are automatically mapped to these columns in the target table. Mapping these columns (or a calculated column that contains the content of these columns) to any other target column is not permitted. 

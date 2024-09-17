@@ -19,7 +19,7 @@ We structured the overall exercise the following way:
    
    In this area you get an [overview about the business scenario & the data model](README.md) used throughout the exercises.
    
-   We also give you guidance how to [get your basic trial access](README_GuidedTrial.md) in case you do not have access to a SAP Datasphere system already. 
+   We also give you guidance how to [get your basic trial access](README_BasicTrial.md) in case you do not have access to a SAP Datasphere system already. 
    
    If you have never touched an SAP Datasphere system you can get an overview about your [first log on](../README_FirstLogon.md) and how you navigate in the system. 
 	
