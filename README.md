@@ -37,7 +37,7 @@ The exercises in section 5 are all optional and you can learn how to leverage Ju
 1. **Getting Started**
 	* [Exercise Overview](exercises/ex00/README_ExOverview.md) 
 	* [Overview about the Business Scenario & the Data Model](exercises/ex00/README.md) 
-	* [Get your basic trial system](exercises/ex00/README_GuidedTrial.md) 
+	* [Get your basic trial system](exercises/ex00/README_BasicTrial.md) 
 	* [First Log On](exercises/ex00/README_FirstLogon.md) 
 	
 2. **SAP Datasphere**
