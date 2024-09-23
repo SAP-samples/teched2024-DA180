@@ -60,24 +60,24 @@ have the option to bring in tables from any remote sources configured.
 17. We want to associate our sales transactions with the time data created in the space so that we can later drill down and up in hierarchies (for example setting the granularity to day or quarter). On the left hand side, search for "Time Dimension Day". Select the dimension of your space (not the one shared). You can verify that by clicking ***...*** and ***Show Info*** afterward. 
 <br>![](images/00_00_0049.png) 
 
-25. Drag the identified view ***Time Dimension – Day*** to the canvas.
-26. Select the table ***Sales Transactions*** on the canvas.
-27. Select the ***arrow symbol*** and drag and drop the arrow to the view ***Time Dimension - Day*** to create a new association between the table ***Sales Transactions*** and the view ***Time Dimension - Day***.
-28. In the panel on the right-hand side (section ***Mappings***), create a join between the columns ***Transaction Date*** and ***Date***.
+18. Drag the identified view ***Time Dimension – Day*** to the canvas.
+19. Select the table ***Sales Transactions*** on the canvas.
+20. Select the ***arrow symbol*** and drag and drop the arrow to the view ***Time Dimension - Day*** to create a new association between the table ***Sales Transactions*** and the view ***Time Dimension - Day***.
+21. In the panel on the right-hand side (section ***Mappings***), create a join between the columns ***Transaction Date*** and ***Date***.
 <br>![](images/00_00_0410.png) 
 
-29. You can use the option ***Auto Layout** in the toolbar to arrange all entities.
+22. You can use the option ***Auto Layout*** in the toolbar to arrange all entities.
 <br>![](images/00_00_0411.png) 
 
-30. Your Entity-Relationship Model should look like the image shown below
+23. Your Entity-Relationship Model should look like the image shown below
 <br>![](images/00_00_0412.png) 
 
-31. Save the changes to your Entity-Relationship Model by using the ***Save option*** in the General menu.
-32. Enter the following details:<br><ul><li>Business Name - Sales Model - Entity-Relationship Model</li><li>Technical Name - Sales_ER_Model
+24. Save the changes to your Entity-Relationship Model by using the ***Save option*** in the General menu.
+25. Enter the following details:<br><ul><li>Business Name - Sales Model - Entity-Relationship Model</li><li>Technical Name - Sales_ER_Model
 <br>  
 
-33. Click ***Save***.
-34. Deploy the model.
+26. Click ***Save***.
+27. Deploy the model.
 
 
 ## Summary

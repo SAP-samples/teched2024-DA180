@@ -22,7 +22,7 @@ We will create a new Analytic Model which accesses the regularly updated data an
 3. Click ***New Transformation Flow***.
 <br>![](images/00_00_0001.png)  
 
-4. You will be landed in the Transformation Flow editor with options to define view transformation and create a new table.
+4. You see the Transformation Flow editor with options to define view transformation and create a new table.
 <br>![](images/00_00_0002.png)  
 
 5. Click on the ***View Transform*** node and select the ***Graphical View Transform*** option.
@@ -70,8 +70,12 @@ We will create a new Analytic Model which accesses the regularly updated data an
 19. You can go back to this monitor after new runs to see that new records are written to the target table.
 <br>![](images/00_00_0021.png)  
 
-20. The Analytic Model used until now (Sales__Analytic_Model) is based on data of local tables. We will copy the fact model and replace the source so that the sales transaction data is coming from the table updated via the transformation flow instead of data imported once via CSV. Copy the view ***Sales View - Fact***.
+20. The Analytic Model used until now (Sales__Analytic_Model) is based on data of local tables. We will copy the fact model and replace the source so that the sales transaction data is coming from the table updated via the transformation flow instead of data imported once via CSV. Copy the view ***Sales View - Fact***. Name it ***Sales View - Fact (Updated)***.
 <br>![](images/00_00_0022.png)  
+
+---
+>:bulb: **Tip:** We create a copy of the fact view to preserve tge previously created models (view, Analytic Model, SAC Story) based on the CSV files. You will copy the existing SAC story and replace the model so that you don't need to recreate a full story. Another option would also be switching the source table of the currently used fact view so that the updated records are displayed in the already existing SAC story. 
+---
 
 
 <br>![](images/00_00_0016.png)  

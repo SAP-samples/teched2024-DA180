@@ -53,7 +53,7 @@ The exercises in section 5 are all optional and you can learn how to leverage Ju
 	* [Exercise 8: Top 10 Revenue Generating Products ](exercises/ex08/README.md) 
 	* [Exercise 9: Revenue by Geography ](exercises/ex09/README.md) 
 
-5. **Optional Excecises**
+5. **Optional Exercises**
 	* [Exercise 20: Identify Top Sales Managers with Just Ask](exercises/ex20/README.md) 
 	* [Exercise 21: Creating Row-Level Permissions based on External Hierarchy](exercises/ex21/README.md) 
 	* [Exercise 22: Explore the Analytic Model](exercises/ex22/README.md) 
