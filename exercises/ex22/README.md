@@ -62,5 +62,5 @@ You have now explored more of the various features of the Analytic Model.
 
 You can continue with one of the optional exercises:
 - [Exercise 20: Identify Top-Performing Sales Managers with Just Ask](../ex20/README.md)
-- [Exercise 21: Create Row-Level Permissions based on External Hierarchy)](../ex21/README.md)
-- [Exercise 23: Create a Transformation Flow)](../ex23/README.md)
+- [Exercise 21: Create Row-Level Permissions based on External Hierarchy](../ex21/README.md)
+- [Exercise 23: Create a Transformation Flow](../ex23/README.md)
