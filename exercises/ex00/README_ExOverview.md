@@ -21,7 +21,7 @@ We structured the overall exercise the following way:
    
    We also give you guidance how to [get your basic trial access](README_BasicTrial.md) in case you do not have access to a SAP Datasphere system already. 
    
-   If you have never touched an SAP Datasphere system you can get an overview about your [first log on](../README_FirstLogon.md) and how you navigate in the system. 
+   If you have never touched an SAP Datasphere system you can get an overview about your [first log on](README_FirstLogon.md) and how you navigate in the system. 
 	
 ## 2. **SAP Datasphere**
    
