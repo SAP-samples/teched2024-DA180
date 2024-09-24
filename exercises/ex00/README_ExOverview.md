@@ -1,11 +1,5 @@
 # Exercise Overview
 
-
-********************************************************************
-*** NEEDS UPDATE ONCE WE HAVE A FINAL SET OF EXECRISES + GRAPHIC ***
-********************************************************************
-
-
 We structured the overall exercise the following way:  
    * Use the blue path to finish early and enjoy exploring the system on your own
    * You can learn more and use the **Optional Exercises** for deep dives on different topics
