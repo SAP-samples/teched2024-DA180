@@ -155,4 +155,4 @@ You've now protected the transactional records of the fact view with a Data Acce
 You can continue with one of the optional exercises:
 - [Exercise 20: Identify Top-Performing Sales Managers with Just Ask](../ex20/README.md)
 - [Exercise 22: Explore the Analytic Model](../ex22/README.md)
-- [Exercise 23: Create a Transformation Flow)](../ex23/README.md)
+- [Exercise 23: Create a Transformation Flow](../ex23/README.md)
