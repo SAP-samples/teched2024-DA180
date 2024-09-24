@@ -63,7 +63,7 @@ In this exercise, we will utilize Just Ask to query our data model by asking que
 Just Ask simplified and accelerated finding answers to your reporting questions. Based on the data model exposed by SAP Datasphere, you obtained answers quickly without any preconfigured data report. 
 
 You can continue with one of the optional exercises:
-- [Exercise 21: Create Row-Level Permissions based on External Hierarchy)](../ex21/README.md)
+- [Exercise 21: Create Row-Level Permissions based on External Hierarchy](../ex21/README.md)
 - [Exercise 22: Explore the Analytic Model](../ex22/README.md)
-- [Exercise 23: Create a Transformation Flow)](../ex23/README.md)
+- [Exercise 23: Create a Transformation Flow](../ex23/README.md)
 
