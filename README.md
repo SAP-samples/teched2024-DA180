@@ -31,7 +31,7 @@ Download the ZIP-file from the GitHub site: :arrow_right: [DA180_Resources.zip](
 
 Be aware that some of the exercises are depend on each other, and have to be done in the sequence given below.<br>
 
-The ***Optional Exercises*** are only relevant if you want to learn more about the solution especially how to create tables (#3) and ER models (#4) instead of importing the artefacts via CSN file (#5). 
+The ***Optional Exercises*** are only relevant if you want to learn more about the solution especially how to create tables (#2) and ER models (#3) instead of importing the artefacts via CSN file (#4). 
 The exercises in section 5 are all optional and you can learn how to leverage Just Ask with SAP Analytics Cloud (#20), enable row-level security with Data Access Controls (#21), explore more features of the Analytic Model (#22) and learn about Transformation Flows and the usage of delta tables (#23).
 
 1. **Getting Started**
