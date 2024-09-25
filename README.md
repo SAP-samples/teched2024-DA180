@@ -18,7 +18,7 @@ Find out how the SAP Datasphere solution helps the line-of-business user get the
 
 ## Requirements
 
-* Google Chrome Browser
+* Google Chrome Browser or Microsoft Edge based on the Chromium engine
 * Access to this GitHub repository 
 * Access to any SAP Datasphere system and in case you do not have access you can use a basic trial
 * You will also need a set of files for these exercises  <br>
