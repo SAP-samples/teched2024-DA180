@@ -148,7 +148,7 @@ We will create a new Analytic Model which accesses the regularly updated data an
 
 44. Save the story. You are asked if you want to remove the unused model, select ***Remove data source***.
 
-45. You now have a report which shows the most recent sales of beverages dynamically.
+45. Your final report shows the most recent sales of beverages dynamically.
 
 ## Summary
 
