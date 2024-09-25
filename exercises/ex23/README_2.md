@@ -77,19 +77,50 @@ We will create a new Analytic Model which accesses the regularly updated data an
 >:bulb: **Tip:** We create a copy of the fact view to preserve tge previously created models (view, Analytic Model, SAC Story) based on the CSV files. You will copy the existing SAC story and replace the model so that you don't need to recreate a full story. Another option would also be switching the source table of the currently used fact view so that the updated records are displayed in the already existing SAC story. 
 ---
 
+21. Open the copied view ***Sales View - Fact (Updated)***. If you previously did the exercise about data access controls, the view will look as displayed on the screenshot. The approach for the view without data access control assigned and join with the product dimension is similar.
+<br>![](images/00_00_0022.png)  
 
-<br>![](images/00_00_0016.png)  
+22. Drag and drop the table ***TECHED2024_SALES_TRANSACTIONS*** into the canvas and replace the original source table. 
+<br>![](images/00_00_0024.png)  
 
-20. Drag and drop the table ***Updated Sales Transactions*** into the canvas and replace the original source table. 
-<br>![](images/00_00_0017.png)  
+23. Map the columns from the old source to the new source by dragging them from the left to the right side. Ensure that all nine columns are mapped and click ***Replace***.
+<br>![](images/00_00_0025.png)  
 
-21. Map the columns from the old source to the new source by dragging them from the left to the right side. Ensure that all nine columns are mapped and click ***Replace***.
-<br>![](images/00_00_0018.png)  
-
-23. Now the source table is replaced with the local table which is enabled for delta capture. Ensure that the view validation displays a green status.
+24. Now the source table is replaced with the local table which is enabled for delta capture. Ensure that the view validation of ***Sales View - Fact (Updated)*** displays a green status.
 <br>![](images/00_00_0019.png)  
 
-24. The Analytic Model ***Sales - Analytic Model*** is now accessing the data which is continuously updated. The same is the case for the SAC story accessing the Analytic Model.
+25. Save and deploy ***Sales View - Fact (Updated)***.
+
+26. Select ***Create Analytic Model*** (in the view properties of ***Sales View - Fact (Updated)***).
+
+27. Save the Analytic Model as ***Sales - Analytic Model (Updated)*** and deploy it. Is now accessing delta enabled local table which is receiving updated records. 
+
+28. We will reuse the previously created SAC Story and map it to the new updated Analytic Model accessing regularly updated data. The same is the case for the SAC story accessing the Analytic Model. 
+
+29. Use the product switch button in the upper right corner to switch to SAC.
+<br>![](images/00_00_0027.png)  
+
+30. Switch to the ***Files*** application and copy the previously created story ***Revenue Analysis - Products***. Copy it to the same folder and name it ***Revenue Analysis - Products (Updated)***.
+<br>![](images/00_00_0029.png)  
+
+31. Open the story  ***Revenue Analysis - Products (Updated)*** and switch to the ***Edit*** mode.
+
+32. To replace the model, access ***...*** -> ***Sales__Analytic_Model*** -> ***Replace***.
+<br>![](images/00_00_0030.png)  
+
+33. Read the warning displayed and click ***Continue***.
+<br>![](images/00_00_0031.png)  
+
+34. Read the warning displayed and click ***Continue***.
+<br>![](images/00_00_0031.png)  
+
+35. Select ***select other model***. You can replace a model in your SAC story with another compatible model. Choose the connection ***DATASPHERE*** and click on the folder with your user's ID. Select the folder ***TECHED2024-DA180*** and click on the Analytic Model ***Sales - Analytic Model (Updated)***.
+
+36. The replace model dialog displays the objects from the replacement model and the objects that need to be mapped. Some objects will automatically be mapped if they are similar to the original objects or if they are mandatory objects. Then they will be disabled (greyed out) in this panel. Check that the mappings are done correctly like displayed in the screenshot.
+<br>![](images/00_00_0032.png)
+
+27. When you have finished mapping objects, select ***Review***. Verify that no issues have been found and click ***Replace Model***.
+<br>![](images/00_00_0033.png)
 
 ## Summary
 
@@ -97,5 +128,5 @@ You have now created and deployed your first Transformation Flow to transform an
 
 You can continue with one of the optional exercises:
 - [Exercise 20: Identify Top-Performing Sales Managers with Just Ask](../ex20/README.md)
-- [Exercise 21: Create Row-Level Permissions based on External Hierarchy)](../ex21/README.md)
+- [Exercise 21: Create Row-Level Permissions based on External Hierarchy](../ex21/README.md)
 - [Exercise 22: Explore the Analytic Model](../ex22/README.md)
