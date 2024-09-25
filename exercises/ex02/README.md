@@ -15,7 +15,7 @@ So, let’s now look at the different asset types:
 - **Analytic Model**: Analytic models are the analytical foundation for making data ready for consumption in SAP Analytics Cloud. They allow you to create and define multi-dimensional models to provide data for analytical purposes to answer different business questions. </p>
 - **Data Flow**: You define Data Flows to use data transformations and leverage the option to load data from a source system and persist it in SAP Datasphere. <br>*Not used in the DA180 exercises.*</p>
 - **Replication Flow**: Create a replication flow if you want to copy multiple data assets from the same source to the same target in a fast and easy way and do not require complex projections. <br>*Not used in the DA180 exercises.*</p>
-- **Transformation  Flow**: Create a transformation flow if you want to load data from one or more source tables, apply transformations (such as a join), and output the result in a target table. You can load full or delta data sets of data from one or more source tables to a target table. <br>*Not used in the DA180 exercises.*</p>
+- **Transformation  Flow**: Create a transformation flow if you want to load data from one or more source tables, apply transformations (such as a join), and output the result in a target table. You can load full or delta data sets of data from one or more source tables to a target table.
 - **Intelligent Lookup**: Create an intelligent lookup to merge data from two entities even if there are problems joining them. <br>*Not used in the DA180 exercises.*</p>
 - **Task Chain**: Create a task chain that groups multiple tasks, which can be run in series manually or through a schedule. <br>*Not used in the DA180 exercises.*</p>
 
