@@ -4,9 +4,11 @@
 
 ---
 
-## SAP Analytic Cloud - Just Ask
+## :beginner: Detour: SAP Analytic Cloud - Just Ask
 
 Just Ask is the natural language query feature powered by artificial intelligence in SAP Analytics Cloud. It provides an easy and efficient way to ask questions on data and provides fact-based answers in tables and charts.
+
+## End of Detour
 
 ## Start of Exercise
 
