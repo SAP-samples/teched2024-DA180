@@ -9,6 +9,10 @@
 Transformation Flows load data from one or more sources and persist the result in a target table. This integration entity can detect delta changes when reading data from a local table which is enabled for delta.
 Transformation Flows are also useful in scenarios when utilizing Replication Flows for Outbound Integration: Replication Flows can access local tables (delta enabled) which are updated by a transformation flow and transfer the data records in a delta mode.
 
+## :beginner: Detour: SAP Analytics Cloud - Replace Model in Stories
+You can replace a model in your SAP Analytics Cloud story with another compatible model.
+You don't have to recreate your full story if you want to replace the data source (model) with a compatible one. While some features may need to be recreated, the structure and formatting of your dashboard won't be affected.
+
 ## End of Detour
 
 ## Start of the exercise
@@ -43,7 +47,7 @@ We will create a new Analytic Model which accesses the regularly updated data an
 10. Click on ***Create New Target Table***.
 <br>![](images/00_00_0008.png)  
 
-11. Set the business name to "Updated Sales Transactions". Verify that ***Delta Capture*** is turned on.
+11. Set the business name to ***TRANSFORMED_TECHED2024_SALES_TRANSACTIONS***. Verify that ***Delta Capture*** is turned on.
 <br>![](images/00_00_0009.png)  
 
 12. Deselect the target table by clicking somewhere else in the editor field. The properties for the Transformation Flow will appear on the right-hand side. Set the business name to ***TF_SalesTransactions*** and the Load Type to ***Initial and Delta***.
@@ -92,10 +96,12 @@ We will create a new Analytic Model which accesses the regularly updated data an
 25. Save and deploy ***Sales View - Fact (Updated)***.
 
 26. Select ***Create Analytic Model*** (in the view properties of ***Sales View - Fact (Updated)***).
+<br>![](images/00_00_0035.png)  
+
 
 27. Save the Analytic Model as ***Sales - Analytic Model (Updated)*** and deploy it. Is now accessing delta enabled local table which is receiving updated records. 
 
-28. We will reuse the previously created SAC Story and map it to the new updated Analytic Model accessing regularly updated data. The same is the case for the SAC story accessing the Analytic Model. 
+28. We will reuse the previously created SAC Story and map it to the new updated Analytic Model so that the report displays the incoming sales transactions.
 
 29. Use the product switch button in the upper right corner to switch to SAC.
 <br>![](images/00_00_0027.png)  
@@ -122,13 +128,31 @@ We will create a new Analytic Model which accesses the regularly updated data an
 37. When you have finished mapping objects, select ***Review***. Verify that no issues have been found and click ***Replace Model***.
 <br>![](images/00_00_0033.png)
 
-38. When you have finished mapping objects, select ***Review***. Verify that no issues have been found and click ***Replace Model***.
-<br>![](images/00_00_0033.png)
+38. The story now accesses data from the new source. The filter for revenue per product is set to 2022. As there is no data available for this year, now data is displayed. We will modify the story in the next steps.
+<br>![](images/00_00_0036.png)
 
+39. The story now accesses data from the new source. The filter for revenue per product is set to 2022. As there is no data available for this year, now data is displayed. We will modify the story in the next steps.
+<br>![](images/00_00_0036.png)
+
+40. Select the chart ***Revenue per Product in 2022*** and remove the filter set for ***Transaction Date***.
+<br>![](images/00_00_0037.png)
+
+41. The revenue per product is displayed. Please note that the visible products depend on the permissions you defined in [exercise 21](../ex21/README.md).
+<br>![](images/00_00_0038.png)
+
+42. We would like to receive a daily summary of recent sales of juices from the past few days. Modify the second chart and set the drill level for transaction date to level 5.
+<br>![](images/00_00_0039.png)
+
+43. Arrange the transaction date in ascending order, from earliest to latest.
+<br>![](images/00_00_0040.png)
+
+44. Save the story. You are asked if you want to remove the unused model, select ***Remove data source***.
+
+45. You now have a report which shows the most recent sales of beverages dynamically.
 
 ## Summary
 
-You have now created and deployed your first Transformation Flow to transform and access changing records in a scheduled approach.
+You have now created and deployed your first transformation flow to transform and access changing records in a scheduled approach. You replaced the data source while keeping the story structure and format intact.
 
 You can continue with one of the optional exercises:
 - [Exercise 20: Identify Top-Performing Sales Managers with Just Ask](../ex20/README.md)

@@ -147,6 +147,8 @@ We want to protect the data of our sales transactions based on this parent-child
 > :boom: **Important:** :boom: <br>
 Please consider that you will now only see a limited amount of records due to the assigned data access control. You can modify the data record of the permission table ***PE_ProductCategory*** and replace the value in the column ***Product Category*** (Non-Alcoholic) with Beverages so that you see all records again when going through other exercises.
 
+14. You can open the previously created reports in SAP Analytics Cloud. You will only see the records your user is authorized to access.
+
 
 ## Summary
 
