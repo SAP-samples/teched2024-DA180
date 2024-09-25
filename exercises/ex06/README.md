@@ -63,7 +63,7 @@ Relationship model.</li><li>You can preview the data.</li><li>You can open the I
 24. Click ***Close***.
 
  
-25. In the toolbar in the ***General*** menu, use the option to save your changes.
+25. In the toolbar in the ***General*** menu, use the option to save your view in the folder TECHED2024-DA180.
 26. After saving your dimension view, ensure you deploy the view.
 <br>![](images/00_00_0776.png) 
 

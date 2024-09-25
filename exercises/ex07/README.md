@@ -82,7 +82,7 @@ in our example called ***View 1***.
 <br>![](images/00_00_0888.png)
 
 24. You are now within your Analytic Model as depicted below. You are able to see the sales fact view and its associated dimensions that you added previously. 
-<br>![](images/00_00_004.png)
+<br>![](images/00_00_0004.png)
 
 25. ***Save*** and ***deploy*** your Analytic Model with the business name ***Sales - Analytic Model*** (the technical name is generated). Select the folder "TECHED2024-DA180".
 
