@@ -31,25 +31,25 @@ You can specify the following types of hierarchies:
 
 6. Enter the following attributes for the table:
  
-| Key: | Business Name:        | Technical Name:                       | Data Type:          | Semantic Type       | Text/Association          |
-|:-----|:----------------------|:--------------------------------------|:--------------------|:--------------------|:----------------------|
-| X    | Child Category         | Child_Category                       | String (30)         |                |                       |
-|      | Parent Category       | Parent_Category                       | String (30)          | None                |          |
+| Key: | Business Name:        | Technical Name:                       | Data Type:          |
+|:-----|:----------------------|:--------------------------------------|:--------------------|
+| X    | Child Category         | Child_Category                       | String (30)         | 
+|      | Parent Category       | Parent_Category                       | String (30)          | 
 
 
 
-5. Ensure that ***Child Category*** is set as key.
+7. Ensure that ***Child Category*** is set as key.
 <br>![](images/00_00_002.png)   
   
-6. Now select the column ***Parent Category*** as parent and the column ***Child Category*** as child. Notice that the validation icon in the upper right corner turns green. 
+8. Now select the column ***Parent Category*** as parent and the column ***Child Category*** as child. Notice that the validation icon in the upper right corner turns green. 
 <br>![](images/00_00_0003.png) 
 
-7. Save and deploy your hierarchy table in the folder TECHED2024-DA180. 
+9. Save and deploy your hierarchy table in the folder TECHED2024-DA180. 
 
-8. Download the :file_folder: [CSV file data_hierarchy_productcategories.csv](data/data_hierarchy_productcategories.csv) and upload the data to the table. 
+10. Download the :file_folder: [CSV file data_hierarchy_productcategories.csv](data/data_hierarchy_productcategories.csv) and upload the data to the table. 
 <br><br>![](images/00_00_0004.png) 
 
-9. Confirm the data entries in the data preview.
+11. Confirm the data entries in the data preview.
 <br>![](images/00_00_0005.png) 
 
 ## Create a Permission Entity
@@ -79,12 +79,14 @@ A permission entity (view or table) lists SAP Datasphere user IDs (in the form r
 
 7. Add the following record to the table. Replace the first part of the email address below for user id with the name of your user (same name as the space). You could also copy your email address if you go to ***Profile*** in the upper right corner and select ***Settings***.
 
+<br>![](images/00_00_0008.png) 
+
 | Record ID                 	| User ID        	| Product Category        | 
 |-----------------------	|---------------	| ---------------	|
 |          1      	| geXXXXXX@sapexperienceacademy.com     	|  Non-Alcoholic     	| 
 
 8. Save the added record.
-<br>![](images/00_00_0008.png) 
+
 
 
 ## Create a Data Access Control Entity
