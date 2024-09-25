@@ -113,7 +113,7 @@ We want to protect the data of our sales transactions based on this parent-child
 3. Set the Join Type to ***Left*** and the cardinality to Many (***Sales Transactions***) to Exactly One (***Product***). Map the columns ***Product ID***.
 <br>![](images/00_00_0012.png)
 
-4. Open the Projection Node. The column ***Product ID*** of the table ***Sales Transactions*** is hidden while the column derived from the table ***Product*** (dimension) is visible. We do not want to keep ***Product ID*** as a key, therefore exclude the column ***Product ID*** (Key from ***Products***) and include ***Product ID*** (***Sales Transactions***).
+4. Open the Projection Node. The column ***Product ID*** of the table ***Sales Transactions*** is hidden while the column derived from the table ***Product*** (dimension) is visible. We do not want to keep ***Product ID*** as a key, therefore exclude the column ***Product ID*** (Key from ***Products***) and restore ***Product ID*** (***Sales Transactions***).
 <br>![](images/00_00_0016.png)
 
 >:bulb: If you select the column in any diagram node you can trace the lineage back to the source.
