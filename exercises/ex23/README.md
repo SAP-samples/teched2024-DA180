@@ -16,10 +16,10 @@ You don't have to recreate your full story if you want to replace the data sourc
 ## End of Detour
 
 ## Start of the exercise
-In this exercise, we will access a shared local table which is delta enabled for sales transactions. New sales transactions are generated in a source system and transferred to SAP Datasphere using a Replication Flow. This happens in a separate admin space of the free trial. 
-Assume that the STORE_ID includes the prefix ***US*** which we remove so that we can map the store id to the dimensions available in the view dimensions.
-We will create a new Analytic Model which accesses the regularly updated data and use the replace model feature in SAC to have a second story accessing the new Analytic Model.
+In this exercise, we will access a shared local table which is delta enabled for sales transactions. New sales transactions are generated in a source system and transferred to SAP Datasphere using a Replication Flow in a central admin space of the tenant. Assume that the store ID includes an additional prefix ***US*** which we need to remove so that we can map the store ID to the dimensions available in the view dimensions.
 
+We will create a new Analytic Model which accesses the regularly updated data and use the replace model feature in SAC to have a second story accessing the new Analytic Model.
+This functionality is beneficial for development activities when you need to transition from one data model to another. Initially, we utilized CSV files, but now we are looking to map the data to a new data source for the sales transactions.
 
 1. Log On to your SAP Datasphere tenant.
 2. Select the menu option ***Data Builder*** on the left-hand side.
@@ -78,7 +78,7 @@ We will create a new Analytic Model which accesses the regularly updated data an
 <br>![](images/00_00_0022.png)  
 
 ---
->:bulb: **Tip:** We create a copy of the fact view to preserve tge previously created models (view, Analytic Model, SAC Story) based on the CSV files. You will copy the existing SAC story and replace the model so that you don't need to recreate a full story. Another option would also be switching the source table of the currently used fact view so that the updated records are displayed in the already existing SAC story. 
+>:bulb: **Tip:** We create a copy of the fact view (and Analytic Model & SAC story) to preserve the previously created models based on the CSV files. You will copy the existing SAC story and replace the model so that you don't need to recreate a full story. Another option would also be switching the source table of the currently used fact view so that the updated records are displayed in the already existing SAC story. 
 ---
 
 21. Open the copied view ***Sales View - Fact (Updated)***. If you previously did the exercise about data access controls, the view will look as displayed on the screenshot. The approach for the view without data access control assigned and join with the product dimension is similar.
@@ -101,9 +101,8 @@ We will create a new Analytic Model which accesses the regularly updated data an
 27. When creating an updated data model, it is likely that measure or attribute names change. To simulate this, select the measure ***Revenue*** and adjust the business and technical name to ***Updated_Revenue***. 
 <br>![](images/00_00_0042.png) 
 
-27. Save the Analytic Model as ***Sales - Analytic Model (Updated)*** and deploy it. Is now accessing delta enabled local table which is receiving updated records. 
-
-28. We will reuse the previously created SAC Story and map it to the new updated Analytic Model so that the report displays the incoming sales transactions.
+28. Save the Analytic Model as ***Sales - Analytic Model (Updated)*** and deploy it. Is now accessing delta enabled local table which is receiving updated records. 
+We will reuse the previously created SAC Story and map it to the new updated Analytic Model so that the report displays the incoming sales transactions.
 
 29. Use the product switch button in the upper right corner to switch to SAC.
 <br>![](images/00_00_0027.png)  
@@ -119,38 +118,31 @@ We will create a new Analytic Model which accesses the regularly updated data an
 33. Read the warning displayed and click ***Continue***.
 <br>![](images/00_00_0031.png)  
 
-34. Read the warning displayed and click ***Continue***.
-<br>![](images/00_00_0031.png)  
+34. Select ***select other model***. You can replace a model in your SAC story with another compatible model, an Analytic Model can be replaced with a different Analytic Model. Choose the connection ***DATASPHERE*** and click on the folder with your user's ID. Select the folder ***TECHED2024-DA180*** and click on the Analytic Model ***Sales - Analytic Model (Updated)***.
 
-35. Select ***select other model***. You can replace a model in your SAC story with another compatible model. Choose the connection ***DATASPHERE*** and click on the folder with your user's ID. Select the folder ***TECHED2024-DA180*** and click on the Analytic Model ***Sales - Analytic Model (Updated)***.
-
-36. The replace model dialog displays the objects from the replacement model and the objects that need to be mapped. Some objects will automatically be mapped if they are similar to the original objects or if they are mandatory objects. Then they will be disabled (greyed out) in this panel. Check that the mappings are done correctly like displayed in the screenshot.
+35. The replace model dialog displays the objects from the replacement model and the objects that need to be mapped (only objects used in the story are mapped). Some objects will automatically be mapped if they are similar to the original objects or if they are mandatory objects. Then they will be disabled (greyed out) in this panel. Map the measure ***Updated_Revenue*** to ***Revenue***. Check that the mappings are done correctly like displayed in the screenshot.
 <br>![](images/00_00_0032.png)
 
-37. When you have finished mapping objects, select ***Review***. Verify that no issues have been found and click ***Replace Model***.
+36. When you have finished mapping objects, select ***Review***. Verify that no issues have been found and click ***Replace Model***.
 <br>![](images/00_00_0033.png)
 
-38. The story now accesses data from the new source. The filter for revenue per product is set to 2022. As there is no data available for this year, now data is displayed. We will modify the story in the next steps.
+37. The story now accesses data from the new source. The filter for revenue per product is set to 2022. As there is no data available for this year, now data is displayed. We will modify the story in the next steps.
 <br>![](images/00_00_0036.png)
 
-39. The story now accesses data from the new source. The filter for revenue per product is set to 2022. As there is no data available for this year, now data is displayed. We will modify the story in the next steps.
-<br>![](images/00_00_0036.png)
-
-40. Select the chart ***Revenue per Product in 2022*** and remove the filter set for ***Transaction Date***.
+38. Select the chart ***Revenue per Product in 2022*** and remove the filter set for ***Transaction Date***.
 <br>![](images/00_00_0037.png)
 
-41. The revenue per product is displayed. Please note that the visible products depend on the permissions you defined in [exercise 21](../ex21/README.md).
+40. The revenue per product is displayed. Please note that the visible products depend on the permissions you defined in [exercise 21](../ex21/README.md).
 <br>![](images/00_00_0038.png)
 
-42. We would like to receive a daily summary of recent sales of juices from the past few days. Modify the second chart and set the drill level for transaction date to level 5.
+41. We would like to receive a daily summary of recent sales of juices from the past few days. Drill down on the transaction date until it is based on days (click twice on the ***Drill Down*** button).
 <br>![](images/00_00_0039.png)
 
-43. Arrange the transaction date in ascending order, from earliest to latest.
-<br>![](images/00_00_0040.png)
+42. Save the story. You are asked if you want to remove the unused model, select ***Remove data source***.
 
-44. Save the story. You are asked if you want to remove the unused model, select ***Remove data source***.
+43. Your final report dynamically displays the most recent beverage sales, allowing you to analyze the changes in revenue from sold juices over the past few days.
+<br>![](images/00_00_0043.png)
 
-45. Your final report shows the most recent sales of beverages dynamically.
 
 ## Summary
 
