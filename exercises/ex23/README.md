@@ -10,7 +10,7 @@ Transformation Flows load data from one or more sources and persist the result i
 Transformation Flows are also useful in scenarios when utilizing Replication Flows for Outbound Integration: Replication Flows can access local tables (delta enabled) which are updated by a transformation flow and transfer the data records in a delta mode.
 
 ## :beginner: Detour: SAP Analytics Cloud - Replace Model in Stories
-You can replace a model in your SAP Analytics Cloud story with another compatible model.
+You can replace a model in your SAP Analytics Cloud story with another compatible model, for example an SAP Datasphere Analytic Model with a different Analytic Model. 
 You don't have to recreate your full story if you want to replace the data source (model) with a compatible one. While some features may need to be recreated, the structure and formatting of your dashboard won't be affected.
 
 ## End of Detour
@@ -98,6 +98,8 @@ We will create a new Analytic Model which accesses the regularly updated data an
 26. Select ***Create Analytic Model*** (in the view properties of ***Sales View - Fact (Updated)***).
 <br>![](images/00_00_0035.png)  
 
+27. When creating an updated data model, it is likely that measure or attribute names change. To simulate this, select the measure ***Revenue*** and adjust the business and technical name to ***Updated_Revenue***. 
+<br>![](images/00_00_0042.png) 
 
 27. Save the Analytic Model as ***Sales - Analytic Model (Updated)*** and deploy it. Is now accessing delta enabled local table which is receiving updated records. 
 
@@ -106,7 +108,7 @@ We will create a new Analytic Model which accesses the regularly updated data an
 29. Use the product switch button in the upper right corner to switch to SAC.
 <br>![](images/00_00_0027.png)  
 
-30. Switch to the ***Files*** application and copy the previously created story ***Revenue Analysis - Products***. Copy it to the same folder and name it ***Revenue Analysis - Products (Updated)***.
+30. Switch to the ***Files*** application and copy the previously created story ***Revenue Analysis - Products*** to keep the previously created story as a backup. Copy it to the same folder and name it ***Revenue Analysis - Products (Updated)***.
 <br>![](images/00_00_0029.png)  
 
 31. Open the story  ***Revenue Analysis - Products (Updated)*** and switch to the ***Edit*** mode.
