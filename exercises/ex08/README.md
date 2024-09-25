@@ -1,6 +1,6 @@
 # Exercise 8 - Top 10 Revenue Generating Products
 
-In this exercise, we will create a story in SAP Analytics Cloud, which allows us to view the Top 10 Revenue Generating Products.
+In this exercise, we will create a story in SAP Analytics Cloud, which allows us to analyse sales and identify the top 10 revenue generating products.
 
 1. Log On to your SAP Analytics Cloud tenant.
 <br>![](images/00_00_0221.png) 
@@ -20,9 +20,9 @@ In this exercise, we will create a story in SAP Analytics Cloud, which allows us
 4. Select ***Optimized Design Experience*** when asked which design mode to use. Click ***Create***.
 <br>![](images/00_00_0222.png) 
 
-5. Under Widgets, select and drag ***Chart** onto the canvas.
+5. Under Widgets, select and drag ***Chart*** onto the canvas.
 <br>![](images/00_00_0204.png)
-6. To select the model that you want to reference in your story<br><ul><li>select ***DATASPHERE*** as the connection on the left panel</li><li>select your SPACE e.g. ***GE12345***</li><li>for our first example, select your ***Sales - Analytic Model***</li></ul>
+6. To select the model that you want to reference in your story<br><ul><li>select ***DATASPHERE*** as the connection on the left panel</li><li>select your SPACE e.g. ***GE12345*** and the folder</li><li>for our first example, select your ***Sales - Analytic Model***</li></ul>
 <br>![](images/00_00_0205.png)
 
 7. Now select the newly created empty chart on the canvas.
@@ -73,7 +73,7 @@ In this exercise, we will create a story in SAP Analytics Cloud, which allows us
 <br>![](images/00_00_0229.png) 
 
 23. Use the time hierarchy defined for ***Transaction Date*** to have a quarter based analysis. Set the hierarchy to ***Year, Quarter, Month, Day*** by clicking on ***Change Hierarchy***. Adjust the level to ***Level 3*** so that the revenue is displayed per quarter.
-<br>![](images/00_00_0231.png) 
+<br>![](images/00_00_0232.png) 
 
 24. You can modify the style of your story and for example add elements, headings or adjust headings.
 <br>![](images/00_00_0233.png) 
