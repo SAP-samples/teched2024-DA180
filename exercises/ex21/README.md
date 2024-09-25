@@ -46,8 +46,8 @@ You can specify the following types of hierarchies:
 
 7. Save and deploy your hierarchy table in the folder TECHED2024-DA180. 
 
-8. Download the [CSV file data_hierarchy_productcategories.csv](data/data_hierarchy_productcategories.csv) and upload the data to the table. 
-<br>![](images/00_00_0004.png) 
+8. Download the :file_folder: [CSV file data_hierarchy_productcategories.csv](data/data_hierarchy_productcategories.csv) and upload the data to the table. 
+<br><br>![](images/00_00_0004.png) 
 
 9. Confirm the data entries in the data preview.
 <br>![](images/00_00_0005.png) 
