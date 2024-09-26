@@ -24,7 +24,7 @@ The files for this exercise are part of the ZIP file you downloaded in the begin
 <br>![](images/00_00_0063.png) 
 
 14. You should receive a message about the successful import of the information.
-15. You can use the ***Data Preview*** to check if the data was loaded into the table.
+15. You can use the ***Data Preview*** to check the data loaded into the table.
 <br>![](images/00_00_0206.png)
 
 16. There is no need to save / deploy the table after you imported the data.
