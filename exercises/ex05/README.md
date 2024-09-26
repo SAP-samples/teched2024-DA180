@@ -29,8 +29,7 @@ The files for this exercise are part of the ZIP file you downloaded in the begin
 
 16. There is no need to save / deploy the table after you imported the data.
 
-> :boom: ***Important*** :boom: <br> 
-> 16. You can now continue and repeat the steps 4 - 15 for the other tables. Each table does have a corresponding CSV file as part of the download. Please upload the data for the following tables:<br>- Product (Dimension Product.csv)<br>- Store (Dimension Store.csv) <br>- Sales Manager (Dimension Sales Manager.csv)<br>
+17. :boom: ***Important***: Continue and repeat the steps 4 - 15 for the other tables. Each table does have a corresponding CSV file as part of the download. Please upload the data for the following tables:<br>- Product (Dimension Product.csv)<br>- Store (Dimension Store.csv) <br>- Sales Manager (Dimension Sales Manager.csv)<br>
 
 
 ## Summary

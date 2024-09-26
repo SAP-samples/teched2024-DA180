@@ -53,7 +53,7 @@ We will now import the table definitions in form of a JSON file by importing a E
 20. Your Entity-Relationship Model should look like the image shown below
 <br>![](images/00_00_0412.png) 
 
-21. Save the changes to your Entity-Relationship Model by using the ***Save option*** in the ***General*** menu.
+21. Save the changes to your Entity-Relationship Model by using the ***Save option*** in the ***General*** menu. Select ***Save Anyway*** (the warning is not relevant).
 
 24. Deploy the model using the ***Deploy*** option in the menu bar.
 
