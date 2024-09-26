@@ -81,7 +81,7 @@ This functionality is beneficial for development activities when you need to tra
 >:bulb: **Tip:** We create a copy of the fact view (and Analytic Model & SAC story) to preserve the previously created models based on the CSV files. You will copy the existing SAC story and replace the model so that you don't need to recreate a full story. Another option would also be switching the source table of the currently used fact view so that the updated records are displayed in the already existing SAC story. 
 ---
 
-21. Open the copied view ***Sales View - Fact (Updated)***. If you previously did the exercise about data access controls, the view will look as displayed on the screenshot. The approach for the view without data access control assigned and join with the product dimension is similar.
+21. Open the copied view ***Sales View - Fact (Updated)***. If you previously did the exercise about data access controls, the view does not look as displayed on the screenshot. Remove the join with ***ProductDim_DAC*** and the assigned DAC.
 <br>![](images/00_00_0022.png)  
 
 22. Drag and drop the table ***TECHED2024_SALES_TRANSACTIONS*** into the canvas and replace the original source table. 
@@ -101,7 +101,7 @@ This functionality is beneficial for development activities when you need to tra
 27. When creating an updated data model, it is likely that measure or attribute names change. To simulate this, select the measure ***Revenue*** and adjust the business and technical name to ***Updated_Revenue***. 
 <br>![](images/00_00_0042.png) 
 
-28. Save the Analytic Model as ***Sales - Analytic Model (Updated)*** and deploy it. Is now accessing delta enabled local table which is receiving updated records. 
+28. Save the Analytic Model as ***Sales - Analytic Model (Updated)*** and deploy it. Confirm "Renaming measure technical name might affect existing stories". The Analytic Model is now accessing delta enabled local table which is receiving updated records. 
 We will reuse the previously created SAC Story and map it to the new updated Analytic Model so that the report displays the incoming sales transactions.
 
 29. Use the product switch button in the upper right corner to switch to SAC.
@@ -129,18 +129,18 @@ We will reuse the previously created SAC Story and map it to the new updated Ana
 37. The story now accesses data from the new source. The filter for revenue per product is set to 2022. As there is no data available for this year, now data is displayed. We will modify the story in the next steps.
 <br>![](images/00_00_0036.png)
 
-38. Select the chart ***Revenue per Product in 2022*** and remove the filter set for ***Transaction Date***.
+38. Select the chart ***Revenue per Product*** and remove the filter set for ***Transaction Date***.
 <br>![](images/00_00_0037.png)
 
-40. The revenue per product is displayed. Please note that the visible products depend on the permissions you defined in [exercise 21](../ex21/README.md).
+39. The revenue per product is displayed.
 <br>![](images/00_00_0038.png)
 
-41. We would like to receive a daily summary of recent sales of juices from the past few days. Drill down on the transaction date until it is based on days (click twice on the ***Drill Down*** button).
+40. We would like to receive a daily summary of recent sales of juices from the past few days. Drill down on the transaction date until it is based on days (click twice on the ***Drill Down*** button).
 <br>![](images/00_00_0039.png)
 
-42. Save the story. You are asked if you want to remove the unused model, select ***Remove data source***.
+41. Save the story. You are asked if you want to remove the unused model, select ***Remove data source***.
 
-43. Your final report dynamically displays the most recent beverage sales, allowing you to analyze the changes in revenue from sold juices over the past few days.
+42. Your final report dynamically displays the most recent beverage sales, allowing you to analyze the changes in revenue from sold juices over the past few days.
 <br>![](images/00_00_0043.png)
 
 
