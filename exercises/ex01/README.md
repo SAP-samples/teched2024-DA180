@@ -17,7 +17,7 @@ In SAP Datasphere all data related workflows start with the selection of a space
 ---
 
 > :boom: **Important:** :boom: <br>
-> In case you do not use a guided experience trial system for this hands-on training, then you require a space on the SAP Datasphere tenant you are using. 
+> In case you are not using a guided experience trial system for this hands-on training, then you require a space on the SAP Datasphere tenant you are using. 
 
 ---
 
@@ -27,7 +27,7 @@ In SAP Datasphere all data related workflows start with the selection of a space
 2. After you selected the menu item, you will be presented with a list of existing spaces.
 <br>![](images/00_00_0023.png)
 
-3. Click the ***EDIT*** button on your assigned space. 
+3. Click the ***EDIT*** button of your assigned space. 
 The pre-defined spaces are usually named the same way as your user ID for example GE12345. The technical ID is identical to the space name. 
 <br>![](images/00_00_0024.png)
 
