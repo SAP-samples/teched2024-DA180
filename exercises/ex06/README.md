@@ -57,7 +57,7 @@ Relationship model.</li><li>You can preview the data.</li><li>You can open the I
 <br>![](images/00_00_0774.png)
 
 22. Ensure that the semantic type for the attribute ***Store Name*** is set to ***Text***.
-23. Set the ***Text/Association*** column for the line item ***Store ID*** to ***Store Name***.
+23. Set the ***Label*** column for the line item ***Store ID*** to ***Store Name***.
 <br>![](images/00_00_0775.png) 
 
 24. Click ***Close***.
