@@ -107,7 +107,7 @@ Semantic Type and Text/Association.<br>
 The column Text/Association allows you to specify the purpose of an attribute when your entity is consumed later. For example, you
 could have a Product ID and a Product Description in the table and use the Product Description column as
 text for the Product ID.<br>  
-The Semantic Type option provides you with several option to choose from, so that you can configure an
+The Semantic Type option provides you with several options to choose from, so that you can configure an
 additional context for the column, such as the option to configure the column as a Currency column or a
 Language column.
 
@@ -128,13 +128,13 @@ Language column.
     
 ---
   
-> :bulb: **Tip:** Please note, that you can only select the Store Name for the column <strong>Text/Association</strong> after you entered the details for the Store Name into ***Attributes***.
+> :bulb: **Tip:** Please note, that you can only select the Store Name for the column <strong>Text/Association</strong> after you entered the details for the Store Name into ***Attributes*** and select “Text” as the Semantic Type.
 
 ---
 
 26. After you entered all columns for the table, ensure you enable the Key Column option for the column Store ID.
 27. Click ***Save*** in the General menu.
-28. You will be asked to confirm the business name as well as the technical name.
+28. Select the folder ***TECHED2024-DA180***. You will be asked to confirm the business name as well as the technical name.
 29. Click ***Save***.
 30. Click ***Deploy*** in the General Menu.
 31. Navigate back to the list of tables. 
@@ -154,10 +154,10 @@ Language column.
   
 36. After you entered all columns for the table, ensure you enable the Key Column option for the column Product ID.
 37. Click ***Save*** in the General menu.
-38. You will be asked to confirm the business name as well as the technical name.
+38. Select the folder ***TECHED2024-DA180***. You will be asked to confirm the business name as well as the technical name.
 39. Click ***Save***.
 40. Click ***Deploy*** in the General Menu.
-41. Click on ***"back arrow"*** on the top menu bar to navigate back to the list of tables. 
+41. Click on the return arrow on the top menu bar to navigate back to the list of tables. 
 <br>![](images/00_00_0037.png)
 
 42. Use the option ***New Table***.
@@ -175,7 +175,7 @@ Language column.
 46. After you entered all columns for the table, ensure you enable the Key Column option for the column Sales
 Manager ID.
 47. Click ***Save*** in the General menu.
-48. You will be asked to confirm the business name as well as the Technical Name.
+48. Select the folder ***TECHED2024-DA180***. You will be asked to confirm the business name as well as the Technical Name.
 49. Click ***Save***.
 50. Click ***Deploy*** in the General Menu.
 51. Use the Back option in top menu or as an alternative you can click on your Space name to navigate back to the home screen of the Data Builder.

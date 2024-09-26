@@ -1,6 +1,6 @@
 # Exercise 3 - Creating the Entity-Relationship Model
 
->:memo: **Note:** This is an Optional Exercise
+>:memo: **Note:** This is an Optional Exercise. You need to have finished [Exercise 02](../ex02/README.md) before. 
 
 ## :beginner: Detour: SAP Datasphere - Entity-Relationship Model
 
