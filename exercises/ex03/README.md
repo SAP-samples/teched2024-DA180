@@ -38,7 +38,7 @@ have the option to bring in tables from any remote sources configured.
 7. When you select the table ***Sales Transactions*** on the canvas, you are presented with various additional options. You could add a new column, create a new entity (view or table), create a new asssociation, add related entities, preview the data, analyze impact and lineage, modify the custom entity annotations or open the table in the table editor.
 
 8. Now drag and drop the table ***Store*** to the canvas next to the table ***Sales Transactions***.
-9. Select the table ***Sales Transaction***.
+9. Select the table ***Sales Transactions***.
 10. Use the ***"->"*** symbol to create a new association.
 <br>![](images/00_00_0044.png)
 
