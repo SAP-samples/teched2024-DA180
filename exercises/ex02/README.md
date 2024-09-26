@@ -37,7 +37,7 @@ We will start to create the tables in SAP Datasphere.
 
 5. You are being presented with the details to create a new table.
 
-6. Enter the following details:<br><ul><li>Business Name - Sales Transactions</li><li>Technical Name - Sales_Transactions</li><li>Semantic Type - Relational Dataset
+6. Enter the following details:<br><ul><li>Business Name - Sales Transactions</li><li>Technical Name - Sales_Transactions</li><li>Semantic Usage - Relational Dataset
 <br>![](images/00_00_0032.png)  
   
 7. Scroll down to the area ***Columns*** (you can also use the tabs in the page header for navigation). Here you
@@ -52,7 +52,7 @@ column
   
 ---  
 
-> :bulb: **Tip:** Please note, that you can change the <strong>Data Type</strong> simply by clicking on the default data type (e.g. String(100) in the Data Type column.
+> :bulb: **Tip:** Please note, that you can change the <strong>Data Type</strong> simply by clicking on the default data type (e.g. String(100)) in the Data Type column.
 
 ---  
   
@@ -90,7 +90,7 @@ Transaction ID.
 
 20. You are back at the home screen of the Data Builder and you should see your table in the list of objects.
 21. Use the option ***New Table***.
-22. Enter the following details:<br><ul><li>Business Name - Store</li><li>Technical Name - Store</li><li>Semantic Type - Dimension<br>
+22. Enter the following details:<br><ul><li>Business Name - Store</li><li>Technical Name - Store</li><li>Semantic Usage - Dimension<br>
 <br>![](images/00_00_0034.png)
 <br>
   
