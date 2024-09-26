@@ -5,7 +5,7 @@
 A view in SAP Datasphere provides you with several benefits:
 - No-code/low-code using with the graphical editor as well as SQL and SQLscript editor
 - Foundation of data modeling on top of remote or local tables or views
-- Choose the semantic usage type (e.g., Fact or Dimension) - based on this specific functionality and behavior is enabled
+- Choose the semantic usage (e.g., Fact or Dimension) - enabling specific functionality and behavior depending which semantic usage is chosen
 - Define unions and joins, rename and remove columns, add calculations and filters
 <br>  
 
@@ -31,7 +31,7 @@ In this exercise, we will create a view for the sales transaction table which wi
 3. Click ***New Graphical View***.
 <br>![](images/00_00_0071.png)  
   
-4. On the left-hand side you can decide between:<br><ul><li>Repository: Here you have access to the local tables (imported data), views, Intelligent Lookups and Shared Objects.</li><li>Sources: Here you have access to tables and views from your connections.</li></ul>
+4. On the left-hand side you can decide between:<br><ul><li>Repository: Here you have access to the local tables (imported data), views, Intelligent Lookups and Shared Objects.</li><li>Sources: Here you have access to the respectie objects from your connections.</li></ul>
 
 5. Ensure you select the option ***Repository***.
 6. Open the folder ***TECHED2024-DA180***. 
@@ -65,7 +65,7 @@ in our example called ***View 1***.
 17. Select the available source associations for Product ID, Sales Manager ID and Transaction Date. Click ***Create***. 
 <br>![](images/00_00_0089.png)   
 
-18. As we created a new dimension view to add a column containing geographic coordinates, create a new association by selecting ***Association***. 
+18. As we created a new dimension view to add a column containing geographic coordinates, create a new association by selecting ***Association*** after clicking on the "+" icon next to the Associations section. 
 
 19. Choose ***Dimension Store*** (View - Dimension) and click on ***Select***.
 <br>![](images/00_00_0002.png)   
