@@ -1,6 +1,6 @@
 # Exercise 8 - Top 10 Revenue Generating Products
 
-In this exercise, we will create a story in SAP Analytics Cloud, which allows us to analyse sales and identify the top 10 revenue generating products.
+In this exercise, we will create a story in SAP Analytics Cloud (SAC), which allows us to analyse sales and identify the top 10 revenue generating products.
 
 1. Log On to your SAP Analytics Cloud tenant.
 <br>![](images/00_00_0221.png) 
@@ -8,7 +8,7 @@ In this exercise, we will create a story in SAP Analytics Cloud, which allows us
 
 ---
 
->:bulb: **Tip:** The system will ask you to resign in. Use the same user name and password for SAC as for Datasphere.
+>:bulb: **Tip:** The system will ask you to sign in again. Use the same user name and password for SAC as for Datasphere.
 
 ---
 
@@ -69,7 +69,7 @@ In this exercise, we will create a story in SAP Analytics Cloud, which allows us
 21. We want to visualize the change of revenue along time in an additional chart. Drag a new chart into the new canvas.
 <br>![](images/00_00_0228.png) 
 
-22. Set the following settings:<br> <ul><li>Select ***Line*** as Chart Type.</li><li>The measure for ***Left Y-Axis*** is ***Revenue***.</li><li>Select ***Transaction Date*** as ***Dimension***</li><li>Filter ***Product Category ID*** (Member) to ***Juices***</li></ul>
+22. Set the following settings:<br> <ul><li>Select ***Line*** as Currently Selected Chart.</li><li>The measure for ***Left Y-Axis*** is ***Revenue***.</li><li>Select ***Transaction Date*** as ***Dimension***</li><li>Filter ***Product Category ID*** (Member) to ***Juices***</li></ul>
 <br>![](images/00_00_0229.png) 
 
 23. Use the time hierarchy defined for ***Transaction Date*** to have a quarter based analysis. Set the hierarchy to ***Year, Quarter, Month, Day*** by clicking on ***Change Hierarchy***. Adjust the level to ***Level 3*** so that the revenue is displayed per quarter.
