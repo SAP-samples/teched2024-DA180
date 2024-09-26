@@ -108,7 +108,7 @@ could have a Product ID and a Product Description in the table and use the Produ
 text for the Product ID.<br>  
 The Semantic Type option provides you with several option to choose from, so that you can configure an
 additional context for the column, such as the option to configure the column as a Currency column or a
-language column.
+Language column.
 
 ---
   
@@ -138,7 +138,7 @@ language column.
 30. Click ***Deploy*** in the General Menu.
 31. Navigate back to the list of tables. 
 32. Create a new table.
-33. Enter the following details:<br><ul><li>Business Name - Product</li><li>Technical Name - Product</li><li>Semantic Type - Dimension<br>
+33. Enter the following details:<br><ul><li>Business Name - Product</li><li>Technical Name - Product</li><li>Semantic Usage - Dimension<br>
 <br>  
 
 34. Navigate to the ***Attributes*** area.<br>
@@ -160,7 +160,7 @@ language column.
 <br>![](images/00_00_0037.png)
 
 42. Use the option ***New Table***.
-43. Enter the following details:<br><ul><li>Business Name - Sales Manager</li><li>Technical Name - Sales_Manager</li><li>Semantic Type - Dimension<br>
+43. Enter the following details:<br><ul><li>Business Name - Sales Manager</li><li>Technical Name - Sales_Manager</li><li>Semantic Usage - Dimension<br>
 <br>  
 
 44. Navigate to the ***Attributes*** area.<br>
