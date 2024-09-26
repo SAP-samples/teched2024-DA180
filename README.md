@@ -9,7 +9,7 @@ This repository contains the material for the SAP TechEd 2024 session called <br
 ## Overview
 
 This jump start session will give you the opportunity to build a scenario with exercises for SAP Datasphere and SAP Analytics Cloud.
-Find out how the SAP Datasphere solution helps the line-of-business user get the job done. Discover flexible connection features, and learn how you can access data from different sources. Create an extendable business semantic model in an agile way, and connect analytics and visualization components in the context of a data warehouse.
+Find out how SAP Datasphere helps the line-of-business user get the job done. Discover flexible connection features, and learn how you can access data from different sources. Create an extendable business semantic model in an agile way, and connect analytics and visualization components in the context of a data warehouse.
 
 ## Disclaimer
 
