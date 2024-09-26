@@ -39,7 +39,7 @@ have the option to bring in tables from any remote sources configured.
 
 8. Now drag and drop the table ***Store*** to the canvas next to the table ***Sales Transactions***.
 9. Select the table ***Sales Transactions***.
-10. Use the ***"->"*** symbol to create a new association by clicking on it and holding onto the icon and drag it over ot the other table.
+10. Use the ***"->"*** symbol to create a new association by clicking on it and holding onto the icon.
 <br>![](images/00_00_0044.png)
 
 11. Drag the ***arrow icon*** to table ***Store*** to create a new association between the table ***Sales Transactions*** and the table ***Store***.
