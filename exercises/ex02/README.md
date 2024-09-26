@@ -29,7 +29,7 @@ We will start to create the tables in SAP Datasphere.
 
 1. Log On to your SAP Datasphere tenant.</p>
 2. Select the menu option Data Builder on the left-hand side. In case you are being asked, select your space (e.g. GE12345)</p>
-3. Create a new folder to organize the entities you will create in this jump-start session. Enter "TECHED2024-DA180" as business name and confirm. A new folder is displayed in the object list.
+3. Create a new folder to organize the entities you will create in this jump-start session by navigating to the "+"-icon on the right and enter "TECHED2024-DA180" as business name and confirm. A new folder is displayed in the object list.
 <br>![](images/00_00_0001.png)
 
 4. Select the option ***New Table***.
@@ -52,11 +52,11 @@ column
   
 ---  
 
-> :bulb: **Tip:** Please note, that you can change the <strong>Data Type</strong> simply by clicking on the item in the Data Type column.
+> :bulb: **Tip:** Please note, that you can change the <strong>Data Type</strong> simply by clicking on the default data type (e.g. String(100) in the Data Type column.
 
 ---  
   
-11. After you entered the details for the first column, please enter additional columns. All columns of the table are listed as follows:
+11. After you entered the details for the first column, please enter the additional columns. All columns of the table are listed as follows:
   
 | Key: | Business Name:      | Technical Name:                       | Data Type:          |
 |:-----|:--------------------|:--------------------------------------|:--------------------|
@@ -81,15 +81,15 @@ Transaction ID.
 
 15. Click ***Save***.
 16. After you saved the changes, you also have to deploy the table, so that we can later on upload data to the table.
-17. Use the Deploy option from the General menu  
+17. Use the Deploy option from the General menu.  
 <br>![](images/00_00_0036.png)   
   
 18. We configured, saved, and deployed our first table.
-19. Click on ***"back arrow"*** on the top menu bar to navigate back to the list of tables. 
+19. Click on the ***"back arrow"*** on the top menu bar to navigate back to the list of tables. 
 <br>![](images/00_00_0037.png)  
 
 20. You are back at the home screen of the Data Builder and you should see your table in the list of objects.
-21. Use the option New Table.
+21. Use the option ***New Table***.
 22. Enter the following details:<br><ul><li>Business Name - Store</li><li>Technical Name - Store</li><li>Semantic Type - Dimension<br>
 <br>![](images/00_00_0034.png)
 <br>
