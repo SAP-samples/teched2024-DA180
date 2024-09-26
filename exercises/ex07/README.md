@@ -16,7 +16,7 @@ Applying transformations to data is also possible in the entity ***Transformatio
 
 
 <br>  
-An Analytic Model in SAP Datasphere provides the following benefits: <ul><li>Builds the analytical foundation to make data ready for consumption in SAP Analytics Cloud or exposure through the public OData API</li><li>Allows multi-dimensional and rich analytical modelling</li><li>Provides data for analytical purposes to answer different business questions by reusing predefined measures,hierarchies, filters, parameters and associations</li><li>Offers many features like calculated & restricted measures, exception aggregation, non-cumulative measures, pruning, variable support, analytical preview, multi-lingual metadata, etc.</ul>
+An Analytic Model in SAP Datasphere provides the following benefits: <ul><li>Builds the analytical foundation to make data ready for consumption in SAP Analytics Cloud or exposure through the public OData API</li><li>Allows multi-dimensional and rich analytical modelling</li><li>Provides data for analytical purposes to answer different business questions by reusing predefined measures,hierarchies, filters, input parameters and associations</li><li>Offers many features like calculated & restricted measures, exception aggregation, non-cumulative measures, pruning, variable support, analytical preview, multi-lingual metadata, etc.</ul>
 <br> 
 
 The sources for analytic models are views or tables of the semantic type fact which can contain dimensions, texts, and hierarchies. 
@@ -53,13 +53,13 @@ in our example called ***View 1***.
 
   
 13. In the panel on the right-hand side, scroll down to the ***Attributes*** section.
-14. The columns ***Profit***, ***Discount***, ***Revenue***, and ***Cost*** are measures (quantifiable values that refer to aggregatable fields of a model). Drag and drop these fields to the section ***Measures***. You can also change the type by selecting the ***Change to Measure*** option. 
+14. The columns ***Profit***, ***Discount***, ***Revenue***, and ***Cost*** are measures (quantifiable values that refer to aggregatable fields of a model). Drag and drop these fields to the section ***Measures*** (multi-selection of measures is possible with keeping CTRL pressed). You can also change the type by selecting the ***Change to Measure*** option.
 <br>![](images/00_00_0087.png)  
   
 15. Verify that your graphical view has four measures.
 <br>![](images/00_00_0001.png)  
 
-16. Scroll down to the section ***Associations***. Click the ***+*** icon to add a new association. As the source of the view has associations itself, you can copy those instead of creating them again. Select ***Copy from Source***.
+16. Scroll down to the section ***Associations***. Click the ***+*** icon to add a new association. As the source of the view has associations itself, you can copy those instead of creating them again (indicated by the arrow symbol on the root view node). Select ***Copy from Source***.
 <br>![](images/00_00_0088.png) 
   
 17. Select the available source associations for Product ID, Sales Manager ID and Transaction Date. Click ***Create***. 
