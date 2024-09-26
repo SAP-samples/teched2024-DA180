@@ -57,7 +57,7 @@ have the option to bring in tables from any remote sources configured.
 <br>![](images/00_00_0046.png) 
 
 
-17. We want to associate our sales transactions with the time data created in the space so that we can later drill down and up in hierarchies (for example setting the granularity to day or quarter). On the left hand side, search for "Time Dimension Day". Select the dimension of your space (not the one shared). You can verify that by clicking ***...*** and ***Show Info*** afterward. 
+17. We want to associate our sales transactions with the time data created in the space so that we can later drill down and up in hierarchies (for example setting the granularity to day or quarter). On the left hand side, search for "Time Dimension Day". Select the dimension of your space (not the one shared). You can verify that by clicking the three dots ***...*** and ***Show Info*** afterward. 
 <br>![](images/00_00_0049.png) 
 
 18. Drag the identified view ***Time Dimension – Day*** to the canvas.
