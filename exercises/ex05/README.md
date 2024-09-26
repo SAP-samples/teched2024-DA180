@@ -16,7 +16,7 @@ The files for this exercise are part of the ZIP file you downloaded in the begin
 <br>![](images/00_00_0062.png) 
 
 8. Ensure the option ***Delete Existing Data Before Upload*** checkbox is ticked.
-9. Ensure the option ***Use first row as column header*** checkbox is enabled.
+9. Ensure the option ***Use first row as column header*** checkbox is ticked.
 10. Ensure the option ***Insert missing string value as*** is set to ***NULL***.
 11. Ensure the ***CSV Delimiter*** option is set to ***Auto-Detect***.
 12. Ensure that all columns of the table have a mapped column from the CSV File.
