@@ -7,16 +7,16 @@ Before we are going to start with the first exercise in creating a table and cre
 different asset types that you can create in the Data Builder of SAP Datasphere.
 
 So, let’s now look at the different asset types:
-- **Table**: Create a table to contain data by defining its column structure. You can configure each field of the table, and already define semantics and associations. You have the ability to upload data to this table later on.</p>
-- **Graphical View**: In the Graphical View you can leverage Tables and Views to prepare data and the create new Views using a graphical no-code/low-code editor. Join datasets as appropriate, add other operators to remove or create columns and filter or aggregate data, and specify measures and other aspects of your output structure in the output node. </p>
+- **Table**: Create a Table to contain data by defining its column structure. You can configure each field of the Table, and already define semantics and associations. You have the ability to upload data to this Table later on.</p>
+- **Graphical View**: In the Graphical View you can leverage Tables and Views to prepare data and then create new Views using a graphical no-code/low-code editor. Join datasets as required, add other operators to remove or create columns and filter or aggregate data, and specify measures and other aspects of your output structure in the output node. </p>
 - **SQL View**: In the SQL View you can leverage Tables and Views to the create new Views by using SQL or SQL-script (table function) view in a powerful SQL editor.
 <br>*Not used in the DA180 exercises.* </p>
-- **Entity Relationship Model**: Here you define the relationships between Tables or Views, which then are being leveraged when you create a new View based on the Tables or Views.</p>
+- **Entity-Relationship Model**: Here you define the relationships between Tables or Views, which then are being leveraged when you create a new View based on the Tables or Views.</p>
 - **Analytic Model**: Analytic models are the analytical foundation for making data ready for consumption in SAP Analytics Cloud. They allow you to create and define multi-dimensional models to provide data for analytical purposes to answer different business questions. </p>
 - **Data Flow**: You define Data Flows to use data transformations and leverage the option to load data from a source system and persist it in SAP Datasphere. <br>*Not used in the DA180 exercises.*</p>
 - **Replication Flow**: Create a replication flow if you want to copy multiple data assets from the same source to the same target in a fast and easy way and do not require complex projections. <br>*Not used in the DA180 exercises.*</p>
 - **Transformation  Flow**: Create a transformation flow if you want to load data from one or more source tables, apply transformations (such as a join), and output the result in a target table. You can load full or delta data sets of data from one or more source tables to a target table.
-- **Intelligent Lookup**: Create an intelligent lookup to merge data from two entities even if there are problems joining them. <br>*Not used in the DA180 exercises.*</p>
+- **Intelligent Lookup**: Create an intelligent lookup to merge data from two entities even if they do not have a common identifier. <br>*Not used in the DA180 exercises.*</p>
 - **Task Chain**: Create a task chain that groups multiple tasks, which can be run in series manually or through a schedule. <br>*Not used in the DA180 exercises.*</p>
 
 ## End of Detour
