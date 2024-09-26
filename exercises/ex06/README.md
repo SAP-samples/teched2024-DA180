@@ -8,7 +8,7 @@ In this exercise, we will create a new view of the semantic type dimension based
 3. Click ***New Graphical View***.
 <br>![](images/00_00_0071.png) 
 
-4. On the left-hand side you can decide between:<br><ul><li>Repository: Here you have access to the local tables (imported data), Views, Intelligent Lookups and Shared Objects.</li><li>Sources: Here you have access to tables and views from your connections.
+4. On the left-hand side you can decide between:<br><ul><li>Repository: Here you have access to the local tables (imported data), Views, Intelligent Lookups and Shared Objects.</li><li>Sources: Here you have access to respective objects from your connections.
 <br>
 
 5. Ensure you select the option ***Repository*** and open the folder "TECHED2024-DA180".
