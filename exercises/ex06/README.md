@@ -13,11 +13,11 @@ In this exercise, we will create a new view of the semantic type dimension based
 
 5. Ensure you select the option ***Repository*** and open the folder "TECHED2024-DA180".
 
-6. You are presented with the list of tables, which we created previously. Drag and Drop the table ***Store*** to the canvas.
+6. You are presented with the list of tables, which we created previously. Drag and drop the table ***Store*** to the canvas.
 <br>![](images/00_00_0072.png) 
 
 7. You automatically will – in addition to the table you dragged to the canvas – receive the output view, in the screenshot called ***View 1***:
-8. Navigate to the ***View Properties*** window.
+8. Navigate to the ***View Properties*** window by clicking on the View 1 in the canvas.
 <br>![](images/00_00_0076.png) 
 
 9. Here you can configure properties for the view:<br><ul><li> Business Name: Dimension Store</li><li> Technical Name: Dimension_Store</li><li> Semantic Usage: Dimension</li>
@@ -28,7 +28,7 @@ In this exercise, we will create a new view of the semantic type dimension based
 <br>![](images/00_00_0002.png) 
 
 11. When you select the table on the canvas, you have the following options (top to bottom)<br><ul><li> You can add filter on top of the source entity.</li><li> You can rename or hide columns as part of a projection.</li><li> You can add Calculated Columns.</li><li> You can add an Aggregation View.</li><li> You can add additional tables / views based on suggested joins, which are based on your Entity
-Relationship model.</li><li>You can preview the data.</li><li>You can open the Impact & Lineage Analysis </li><li> You can open the table in the editor.
+Relationship model.</li><li>You can preview the data.</li><li>You can open the Impact & Lineage Analysis </li><li> You can open the table in the editor in another browser tab.
 <br>
 
 12. Use the option to add a new calculated column. This option also includes the ability to configure the geographic enrichment.
