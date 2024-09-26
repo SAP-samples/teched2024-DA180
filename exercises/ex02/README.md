@@ -38,6 +38,7 @@ We will start to create the tables in SAP Datasphere.
 5. You are being presented with the details to create a new table.
 
 6. Enter the following details:<br><ul><li>Business Name - Sales Transactions</li><li>Technical Name - Sales_Transactions</li><li>Semantic Usage - Relational Dataset<br>
+<br>  
 <br>![](images/00_00_0032.png)  
   
 7. Scroll down to the area ***Columns*** (you can also use the tabs in the page header for navigation). Here you
