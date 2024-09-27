@@ -65,7 +65,7 @@ This functionality is beneficial for development activities when you need to tra
 16. The Transformation Flow run should run scheduled. User consent is required to run scheduled tasks or task chains. Authorize SAP Datasphere to run these tasks.
 <br>![](images/00_00_0020.png)  
 
-17. Schedule the Transformation Flow to run once a day. It will retrieve the newest and changed records and add them to the local table. Click ***Create Schedule***.
+17. Schedule the Transformation Flow to run once a day. It will retrieve the latest and changed records and add them to the local table. Click ***Create Schedule***.
 <br>![](images/00_00_0014.png)  
 
 18. Define the scheduling as ***Simple Schedule*** which is repeated every 10 minutes. Choose a time and select ***Create***.
