@@ -72,7 +72,7 @@ have the option to bring in tables from any remote sources configured.
 22. In the panel on the right-hand side (section ***Mappings***), create a join between the columns ***Transaction Date*** and ***Date***.
 <br>![](images/00_00_0410.png) 
 
-23. Your Entity-Relationship Model should look like the image shown below
+23. Your Entity-Relationship Model should look like the image shown below.
 <br>![](images/00_00_0412.png) 
 
 24. Save the changes to your Entity-Relationship Model by using the ***Save option*** in the General menu.
