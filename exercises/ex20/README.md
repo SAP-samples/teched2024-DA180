@@ -20,7 +20,7 @@ In this exercise, we will utilize Just Ask to query our data model by asking que
 
 ---
 
->:bulb: **Tip:** The system will ask you to resign in.
+>:bulb: **Tip:** The system may ask you to sign in again.
 
 ---
 
