@@ -53,7 +53,7 @@ This functionality is beneficial for development activities when you need to tra
 12. Deselect the target table by clicking somewhere else in the editor field. The properties for the Transformation Flow will appear on the right-hand side. Set the business name to ***TF_SalesTransactions*** and the Load Type to ***Initial and Delta***.
 <br>![](images/00_00_0010.png)  
 
-13. Save and deploy the Transformation Flow in the folder TECHED2024-DA180, afterward click on ***Run***.
+13. Save and deploy the Transformation Flow in the folder TECHED2024-DA180, afterwards click on ***Run***.
 <br>![](images/00_00_0011.png)  
 
 14. Open the Data Integration Monitor to have a look at the Transformation Flow run.
