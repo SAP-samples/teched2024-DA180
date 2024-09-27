@@ -96,7 +96,7 @@ We want to protect the data of our sales transactions based on this parent-child
 1. In the side navigation area, select ***Data Builder*** and click ***New Data Access Control*** to open the editor.
 <br>![](images/00_00_0006.png) 
 
-2. Enter the following details in the ***General*** section and select the permission entity which you created in the previous step:<br><ul><li>Business Name - DAC Product Category</li><li>Technical Name - DAC_ProductCategory</li><li>Structure - Hierarchy</li><li>Permission Entity - PE_ProductCategory<li>Identifier Column - User ID<br>
+2. Enter the following details in the ***General*** section and select the permission entity which you created in the previous step:<br><ul><li>Business Name - DAC Product Category</li><li>Technical Name - DAC_ProductCategory</li><li>Structure - Hierarchy</li><li>Permissions Entity - PE_ProductCategory<li>Identifier Column - User ID<br>
 <br>
 
 3. Enter the following details in the ***Criteria*** section and select the hierarchy table which you created in the first step of this exercise:<br><ul><li>Business Name - Product Category</li><li>Technical Name - Product_Category</li><li>Hierarchy Entity - Hierarchy_ProductCategory</li><li>Criterion Column - Product Category<br>
@@ -120,7 +120,7 @@ We want to protect the data of our sales transactions based on this parent-child
 
 >:bulb: If you select the column in any diagram node you can trace the lineage back to the source.
 
-5. Go to the association which points to the dimension ***Product*** and maintain the mapping (Product ID to Product ID) as this got lost because of the join.
+5. Go to the association which points to the dimension ***Product*** and maintain the mapping (Product ID to Product ID) as this has been removed because of the join.
 
 6. In the model properties, add a new Data Access Control.
 <br>![](images/00_00_0010.png)
