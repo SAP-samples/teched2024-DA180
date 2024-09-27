@@ -53,7 +53,7 @@ This functionality is beneficial for development activities when you need to tra
 12. Deselect the target table by clicking somewhere else in the editor field. The properties for the Transformation Flow will appear on the right-hand side. Set the business name to ***TF_SalesTransactions*** and the Load Type to ***Initial and Delta***.
 <br>![](images/00_00_0010.png)  
 
-13. Save and deploy the Transformation Flow in the folder TECHED2024-DA180, afterwards click on ***Run***.
+13. Save and deploy the Transformation Flow in the folder TECHED2024-DA180, afterward click on ***Run***.
 <br>![](images/00_00_0011.png)  
 
 14. Open the Data Integration Monitor to have a look at the Transformation Flow run.
@@ -65,7 +65,7 @@ This functionality is beneficial for development activities when you need to tra
 16. The Transformation Flow run should run scheduled. User consent is required to run scheduled tasks or task chains. Authorize SAP Datasphere to run these tasks.
 <br>![](images/00_00_0020.png)  
 
-17. Schedule the Transformation Flow to run once a day. It will retrieve the latest and changed records and add them to the local table. Click ***Create Schedule***.
+17. Schedule the Transformation Flow to run once a day. It will retrieve the newest and changed records and add them to the local table. Click ***Create Schedule***.
 <br>![](images/00_00_0014.png)  
 
 18. Define the scheduling as ***Simple Schedule*** which is repeated every 10 minutes. Choose a time and select ***Create***.
@@ -112,8 +112,11 @@ We will reuse the previously created SAC Story and map it to the new updated Ana
 
 31. Open the story  ***Revenue Analysis - Products (Updated)*** and switch to the ***Edit*** mode.
 
-32. To replace the model, access ***...*** -> ***Sales__Analytic_Model*** -> ***Replace***.
+32. To replace the model, access ***...*** -> ***Add New Data*** -> ***Sales__Analytic_Model*** 
 <br>![](images/00_00_0030.png)  
+
+33. Select ***Replace***.
+<br>![](images/00_00_0030.5.png)  
 
 33. Read the warning displayed and click ***Continue***.
 <br>![](images/00_00_0031.png)  
