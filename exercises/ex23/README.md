@@ -118,32 +118,32 @@ We will reuse the previously created SAC Story and map it to the new updated Ana
 33. Select ***Replace***.
 <br>![](images/00_00_0030.5.png)  
 
-33. Read the warning displayed and click ***Continue***.
+34. Read the warning displayed and click ***Continue***.
 <br>![](images/00_00_0031.png)  
 
-34. Select ***select other model***. You can replace a model in your SAC story with another compatible model, an Analytic Model can be replaced with a different Analytic Model. Choose the connection ***DATASPHERE*** and click on the folder with your user's ID. Select the folder ***TECHED2024-DA180*** and click on the Analytic Model ***Sales - Analytic Model (Updated)***.
+35. Select ***select other model***. You can replace a model in your SAC story with another compatible model, an Analytic Model can be replaced with a different Analytic Model. Choose the connection ***DATASPHERE*** and click on the folder with your user's ID. Select the folder ***TECHED2024-DA180*** and click on the Analytic Model ***Sales - Analytic Model (Updated)***.
 
-35. The replace model dialog displays the objects from the replacement model and the objects that need to be mapped (only objects used in the story are mapped). Some objects will automatically be mapped if they are similar to the original objects or if they are mandatory objects. Then they will be disabled (greyed out) in this panel. Map the measure ***Updated_Revenue*** to ***Revenue***. Check that the mappings are done correctly like displayed in the screenshot.
+36. The replace model dialog displays the objects from the replacement model and the objects that need to be mapped (only objects used in the story are mapped). Some objects will automatically be mapped if they are similar to the original objects or if they are mandatory objects. Then they will be disabled (greyed out) in this panel. Map the measure ***Updated_Revenue*** to ***Revenue***. Check that the mappings are done correctly like displayed in the screenshot.
 <br>![](images/00_00_0032.png)
 
-36. When you have finished mapping objects, select ***Review***. Verify that no issues have been found and click ***Replace Model***.
+37. When you have finished mapping objects, select ***Review***. Verify that no issues have been found and click ***Replace Model***.
 <br>![](images/00_00_0033.png)
 
-37. The story now accesses data from the new source. The filter for revenue per product is set to 2022. As there is no data available for this year, now data is displayed. We will modify the story in the next steps.
+38. The story now accesses data from the new source. The filter for revenue per product is set to 2022. As there is no data available for this year, now data is displayed. We will modify the story in the next steps.
 <br>![](images/00_00_0036.png)
 
-38. Select the chart ***Revenue per Product*** and remove the filter set for ***Transaction Date***.
+39. Select the chart ***Revenue per Product*** and remove the filter set for ***Transaction Date***.
 <br>![](images/00_00_0037.png)
 
-39. The revenue per product is displayed.
+40. The revenue per product is displayed.
 <br>![](images/00_00_0038.png)
 
-40. We would like to receive a daily summary of recent sales of juices from the past few days. Drill down on the transaction date until it is based on days (click twice on the ***Drill Down*** button).
+41. We would like to receive a daily summary of recent sales of juices from the past few days. Drill down on the transaction date until it is based on days (click twice on the ***Drill Down*** button).
 <br>![](images/00_00_0039.png)
 
-41. Save the story. You are asked if you want to remove the unused model, select ***Remove data source***.
+42. Save the story. You are asked if you want to remove the unused model, select ***Remove data source***.
 
-42. Your final report dynamically displays the most recent beverage sales, allowing you to analyze the changes in revenue from sold juices over the past few days.
+43. Your final report dynamically displays the most recent beverage sales, allowing you to analyze the changes in revenue from sold juices over the past few days.
 <br>![](images/00_00_0043.png)
 
 
