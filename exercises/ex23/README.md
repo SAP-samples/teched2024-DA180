@@ -7,7 +7,7 @@
 ## :beginner: Detour: SAP Datasphere - Transformation Flows
 
 Transformation Flows load data from one or more sources and persist the result in a target table. This integration entity can detect delta changes when reading data from a local table which is enabled for delta.
-Transformation Flows are also useful in scenarios when utilizing Replication Flows for Outbound Integration: Replication Flows can access local tables (delta enabled) which are updated by a transformation flow and transfer the data records in a delta mode.
+Transformation Flows are also useful in scenarios when utilizing Replication Flows for Premium Outbound Integration: Replication Flows can access local tables (delta enabled) which are updated by a transformation flow and transfer the data records in a delta mode.
 
 ## :beginner: Detour: SAP Analytics Cloud - Replace Model in Stories
 You can replace a model in your SAP Analytics Cloud story with another compatible model, for example an SAP Datasphere Analytic Model with a different Analytic Model. 
