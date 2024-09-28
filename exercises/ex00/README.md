@@ -7,7 +7,7 @@ The sample data set for the session represents retail transactions from a number
 The sales department is looking for a few analytics they need:
 
 * **Top 10 Revenue Generating Products**<br>
-They want to discover the top 10 revenue generating products in 2023.  
+They want to discover the top 10 revenue generating products.  
 
 * **Sales Per Region**<br>
 Due to an increase in the number of sales, the customer wants to understand how the different regions are  performing. Based on this visualization, the marketing team would identify the regions which are doing good as  well as the regions which need attention or better marketing campaigns.  
