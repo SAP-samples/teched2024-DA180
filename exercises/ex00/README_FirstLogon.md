@@ -4,7 +4,7 @@
 
 ---
 
-1. Open Google Chrome and log on to your SA system.
+1. Open Google Chrome or Microsoft Edge and log on to your SAP Datasphere system.
 <br>![](images/00_00_0015.png)
 
 2. In case you get the following pop-up message, use the ***CLOSE*** button to get to the start screen. 
