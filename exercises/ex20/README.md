@@ -20,7 +20,7 @@ In this exercise, we will utilize Just Ask to query our data model by asking que
 
 ---
 
->:bulb: **Tip:** The system may ask you to sign in again.
+>:bulb: **Note:** The system may ask you to sign in again. Use the same user name and password for SAC as for Datasphere.
 
 ---
 

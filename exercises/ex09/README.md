@@ -9,7 +9,7 @@ geographic map.
 
 ---
 
->:bulb: **Tip:** The system will ask you to resign in.
+>:bulb: **Note:** The system may ask you to sign in again. Use the same user name and password for SAC as for Datasphere.
 
 ---
 

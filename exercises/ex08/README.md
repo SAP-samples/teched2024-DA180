@@ -8,7 +8,7 @@ In this exercise, we will create a story in SAP Analytics Cloud (SAC), which all
 
 ---
 
->:bulb: **Tip:** The system may ask you to sign in again. Use the same user name and password for SAC as for Datasphere.
+>:bulb: **Note:** The system may ask you to sign in again. Use the same user name and password for SAC as for Datasphere.
 
 ---
 
