@@ -13,7 +13,7 @@ Find out how SAP Datasphere helps the line-of-business user get the job done. Di
 
 ## Disclaimer
 
-* Your screen shots may look different than those in the exercises; they may contain additional content, depending on what other attendees have entered.
+* Your screen shots may look different than those in the exercises, as with new releases there might be new features or enhancements being delivered.
 * Some user interface elements may differ from the screenshot used in the exercise.
 
 ## Requirements
