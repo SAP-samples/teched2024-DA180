@@ -2,12 +2,11 @@
 
 First you need to get your basic trial access of SAP Datasphere (mandatory). You could use any SAP Datasphere system you have access to, as all the required files for the core exercises are provided as part of this GitHub repository. 
 
-1.	Navigate to the SAP Datasphere product page on sap.com for the basic trial: <br> https://www.sap.com/products/technology-platform/datasphere/trial.html
+1.	Navigate to the SAP Datasphere product page on sap.com for the [basic trial](https://www.sap.com/registration/trial.4d48ec23-eadf-4399-8595-ac3f9c66c64f.html?source=basic_trials_teched2024)
 <br>  ![](images/01_DWC-product_page.png)
 
-*** SCREENSHOTS NEED UPDATE ***
-
-2.  Click ***Start now*** or alternatively use the follwing link <br>https://www.sap.com/registration/trial.4d48ec23-eadf-4399-8595-ac3f9c66c64f.html<br>![](images/02_DWC_guided_experience.png)
+2.  Click ***Start now*** or alternatively use the follwing link <br>https://www.sap.com/registration/trial.4d48ec23-eadf-4399-8595-ac3f9c66c64f.html?source=basic_trials_teched2024
+<br>![](images/02_DWC_guided_experience.png)
 
 3.  The registration form will show up. Please provide your email address and proceed using the ***NEXT*** button.<br><br>
 
