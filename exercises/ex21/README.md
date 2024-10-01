@@ -14,6 +14,8 @@ You can specify the following types of hierarchies:
 
 **External Hierarchy** - the parent-child hierarchy information is contained in a separate entity, which needs to be associated with the dimension (see Create an External Hierarchy for Drill-Down).
 
+**Hierarchy with Directory** - your entity contains one or more parent-child hierarchies and has an association to a directory dimension containing a list of the hierarchies. These types of hierarchy entities can include nodes from multiple dimensions (for example, country, cost center group, and cost center) and are commonly imported from SAP S/4HANA Cloud and SAP BW (including SAP BW Bridge) systems.
+
 **Data access controls** allow you to apply row-level security to your objects. There are different options how to specify criteria which user is allowed to see which user. One option is the definition based on a hierarchy. Each user can only see the records that match the hierarchy values she is authorized for in the permissions entity, along with any of their descendents. Only external hierarchies with a single pair of parent-child columns are supported. 
 
 ## End of Detour
@@ -66,7 +68,7 @@ A permission entity (view or table) lists SAP Datasphere user IDs (in the form r
 |:-----|:----------------------|:--------------------------------------|:--------------------|:----------------------|
 | X    | Record ID         | Record_ID                     | Integer         |                | 
 |      | User ID         | User_ID                       | String (50)         |                |      
-|      | Product Category      | Parent_Category                       | String (30)          |                 |      
+|      | Product Category      | Product_Category                       | String (30)          |                 |      
 
 
 4. Verify your configuration.
@@ -125,10 +127,10 @@ We want to protect the data of our sales transactions based on this parent-child
 6. In the model properties, add a new Data Access Control.
 <br>![](images/00_00_0010.png)
 
-7. Select the previously created DAC ***DAC_ProductCategory***.
+7. Select the previously created DAC ***DAC_ProductCategory*** (single click).
 <br>![](images/00_00_0011.png)
 
-8. Map the two columns named ***Product Category Name*** (enter the name in the **Search** Field).
+8. Map the two columns named ***Product Category Name*** (enter "Name" in the **Search** Field). When you move your cursor over the columns, the complete name is displayed as tooltip.
 <br>![](images/00_00_0013.png)
 
 9. Set the Alias of the table ***Product*** to ***ProductDim_DAC***.

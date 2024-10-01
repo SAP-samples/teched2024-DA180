@@ -38,7 +38,7 @@ This functionality is beneficial for development activities when you need to tra
 7. If you scroll down, ensure that ***Load from Table*** is set to ***Delta Capture***. As the delta capture setting is enabled for the source table, the columns ***Change Date*** and ***Change Type*** are automatically mapped to these columns in the target table. Mapping these columns (or a calculated column that contains the content of these columns) to any other target column is not permitted. 
 <br>![](images/00_00_0005.png)  
 
-8. Add a new node for ***Calculated Columns***. Choose the existing column ***STORE_ID*** and enter the expression ***RIGHT(STORE_ID,6)*** as we will exclude the prefix of the STORE_ID so that it can be mapped to the dimension IDs. Adjust the length to 6 characters.
+8. Add a new node for ***Calculated Columns***. Choose the existing column ***STORE_ID*** and enter the expression ***SUBSTR_AFTER(STORE_ID,'US')*** as we will exclude the prefix of the STORE_ID so that it can be mapped to the dimension IDs. Adjust the length to 6 characters.
 <br>![](images/00_00_0006.png)  
 
 9. Exit the graphical view editor and go back to the transformation flow overview.
@@ -98,10 +98,10 @@ This functionality is beneficial for development activities when you need to tra
 26. Select ***Create Analytic Model*** (in the view properties of ***Sales View - Fact (Updated)***).
 <br>![](images/00_00_0035.png)  
 
-27. When creating an updated data model, it is likely that measure or attribute names change. To simulate this, select the measure ***Revenue*** and adjust the business and technical name to ***Updated_Revenue***. 
+27. When creating an updated data model, it is likely that measure or attribute names change. To simulate this, select the measure ***Revenue*** and adjust the business and technical name to ***Updated_Revenue***.  
 <br>![](images/00_00_0042.png) 
 
-28. Save the Analytic Model as ***Sales - Analytic Model (Updated)*** and deploy it. Confirm "Renaming measure technical name might affect existing stories". The Analytic Model is now accessing delta enabled local table which is receiving updated records. 
+28. Save the Analytic Model as ***Sales - Analytic Model (Updated)*** in the folder **TECHED2024-DA180**. You need to confirm the warning "Renaming measure technical name might affect existing stories" once before saving and deploying the model. The Analytic Model is now accessing delta enabled local table which is receiving updated records. 
 We will reuse the previously created SAC Story and map it to the new updated Analytic Model so that the report displays the incoming sales transactions.
 
 29. Use the product switch button in the upper right corner to switch to SAC.
