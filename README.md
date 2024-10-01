@@ -20,7 +20,7 @@ Find out how SAP Datasphere helps the line-of-business user get the job done. Di
 
 * Google Chrome Browser or Microsoft Edge based on the Chromium engine
 * Access to this GitHub repository 
-* Access to any SAP Datasphere and SAP Analytics Cloud system. In case you do not have access you can use a basic trial. (Optional exercise #23 is only working using a basic trial.)
+* Access to any SAP Datasphere and SAP Analytics Cloud system. In case you do not have access you can use a basic trial. The optional exercise #23 is only working using a basic trial.
 * You will also need a set of files for these exercises  <br>
 Download the ZIP-file from the GitHub site: :arrow_right: [DA180_Resources.zip](DA180_Resources.zip)
 
