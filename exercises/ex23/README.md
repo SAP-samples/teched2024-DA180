@@ -138,7 +138,7 @@ We will reuse the previously created SAC Story and map it to the new updated Ana
 40. The revenue per product is displayed.
 <br>![](images/00_00_0038.png)
 
-41. We would like to receive a daily summary of recent sales of juices from the past few days. Drill down on the transaction date until it is based on days (click twice on the ***Drill Down*** button).
+41. Now we focus on the chart on the right-hand side. We would like to receive a daily summary of recent sales of juices from the past few days. Open the wizard for drill-down when clicking onto the data point. Drill down on the transaction date until it is based on days (click twice on the ***Drill Down*** button).
 <br>![](images/00_00_0039.png)
 
 42. Save the story. You are asked if you want to remove the unused model, select ***Remove data source***.
