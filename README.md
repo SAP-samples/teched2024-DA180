@@ -1,4 +1,4 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-DA183v)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-DA183v)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2024-DA180/)](https://api.reuse.software/info/github.com/SAP-samples/teched2024-DA180/)
 
 # DA180 - Explore SAP Datasphere and SAP Analytics Cloud End-to-End
 
