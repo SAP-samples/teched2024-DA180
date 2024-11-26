@@ -6,7 +6,8 @@ To explore the various connectivity options of SAP Datasphere, refer to [the det
 
 The files for this exercise are part of the ZIP file you downloaded at the beginning. We will now upload the CSV files into the corresponding tables.
 
-2. In your SAP Datasphere tenant select the menu option ***Data Builder*** on the left-hand side and click on your folder `TECHED2024-DA180`.
+1. In your SAP Datasphere tenant select the menu option ***Data Builder*** on the left-hand side.
+2. Click on your folder `TECHED2024-DA180`.
 3. Click on the table ***Sales Transactions***.
 4. Select the menu option ***Upload Data from CSV File*** in the toolbar.
 <br>![](images/00_00_0061.png) 
@@ -30,7 +31,8 @@ The files for this exercise are part of the ZIP file you downloaded at the begin
 
 16. There is no need to save / deploy the table after you imported the data.
 
-17. Continue and repeat the steps 4 - 15 for the other tables. Each table does have a corresponding CSV file as part of the download. Please upload the data for the following tables:<br>- ***Product*** (`Dimension Product.csv`)<br>- ***Store*** (`Dimension Store.csv`) <br>- ***Sales Manager*** (`Dimension Sales Manager.csv`)<br>
+17. Continue and repeat steps 4–15 for the other tables. Each table has a corresponding CSV file included in the download.<br>
+<br>Upload the data for the following tables:<br>- ***Product*** (`Dimension Product.csv`)<br>- ***Store*** (`Dimension Store.csv`) <br>- ***Sales Manager*** (`Dimension Sales Manager.csv`)<br>
 
 
 ## Summary
