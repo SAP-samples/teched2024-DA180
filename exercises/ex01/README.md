@@ -31,7 +31,7 @@ In SAP Datasphere all data related workflows start with the selection of a space
 The pre-defined spaces are usually named the same way as your user ID for example GE12345. The technical ID is identical to the space name. 
 <br>![](images/00_00_0024.png)
 
-4. You are now being presented with the properties of your space and the abilities to configure certain options. <br>Changing the storage assignment or workload management options is not possible in guided experience trial systems. 
+4. You are now being presented with the properties of your space and the abilities to configure certain options. <br>Changing the storage assignment or workload management options is not possible in basic trial systems. 
 
 5. In the "Users" section you can see that your user (e.g. GE12345) is already assigned to the Space.
 <br>![](images/00_00_0026.png)
