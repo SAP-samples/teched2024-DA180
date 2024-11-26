@@ -9,12 +9,13 @@ This repository contains the material for the SAP TechEd 2024 session called <br
 ## Overview
 
 This jump start session will give you the opportunity to build a scenario with exercises for SAP Datasphere and SAP Analytics Cloud.
-Find out how SAP Datasphere helps the line-of-business user get the job done. Discover flexible connection features, and learn how you can access data from different sources. Create an extendable business semantic model in an agile way, and connect analytics and visualization components in the context of a data warehouse.
+
+Find out how SAP Datasphere helps line-of-business users get the job done. Discover flexible connection features, and learn how you can access data from different sources. Create an extendable business semantic model in an agile way, and connect analytics and visualization components in the context of a data warehouse.
 
 ## Disclaimer
 
-* Your screen shots may look different than those in the exercises, as with new releases there might be new features or enhancements being delivered.
-* Some user interface elements may differ from the screenshot used in the exercise.
+* Your screenshots may look different than those in the exercises, as new releases might include additional features or enhancements.  
+* Some user interface elements might differ from the screenshots used in the exercises. 
 
 ## Requirements
 
@@ -29,10 +30,18 @@ Download the ZIP-file from the GitHub site: :arrow_right: [DA180_Resources.zip](
 
 ## Exercises
 
-Be aware that some of the exercises are dependent on each other, and have to be done in the sequence given below.<br>
+Be aware that some of the exercises are dependent on each other and must be completed in the sequence provided below.<br>
 
-The ***Optional Exercises*** are only relevant if you want to learn more about the solution especially how to create tables (#2) and Entity-Relationship (ER) models (#3) instead of importing the artefacts via CSN file (#4). 
-The exercises in section 4 are all optional and you can learn how to leverage Just Ask with SAP Analytics Cloud (#20), enable row-level security with Data Access Controls (#21), explore more features of the Analytic Model (#22) and learn about Transformation Flows and the usage of delta tables (#23).
+The ***Optional Exercises*** are relevant only if you want to dive deeper into the solution, particularly in learning how to:
+- Create tables (#2) 
+- Build Entity-Relationship (ER) models (#3) 
+- Instead of importing artefacts via a CSN file (#4).
+
+The exercises in section 4 are all optional. You can explore how to:
+- Leverage **Just Ask** with SAP Analytics Cloud (#20)  
+- Enable row-level security using **Data Access Controls** (#21)
+- Discover additional features of the **Analytic Model** (#22)
+- Understand **Transformation Flows** and the use of **delta tables** (#23).
 
 1. **Getting Started**
 	* [Exercise Overview](exercises/ex00/README_ExOverview.md) 
@@ -60,10 +69,6 @@ The exercises in section 4 are all optional and you can learn how to leverage Ju
 	* [Exercise 23: Create a Transformation Flow and the usage of delta tables ](exercises/ex23/README.md) 
     
 Have fun :smiley:
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets (images, folders, etc) from the exercises folder. 
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
