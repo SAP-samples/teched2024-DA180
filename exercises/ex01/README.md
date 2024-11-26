@@ -44,4 +44,4 @@ The pre-defined spaces are usually named the same way as your user ID for exampl
 
 You have explored the settings of your space in SAP Datasphere. You can now start your next step and create your first data model.
 
-Continue to - [Exercise 02: Prepare Your Data (optional) ](../ex02/README.md) or [Exercise 4: Importing Tables](../ex04/README.md)
+Continue to - [Exercise 4: Importing Tables](../ex04/README.md) or [Exercise 02: Prepare Your Data (optional) ](../ex02/README.md) 
