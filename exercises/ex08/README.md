@@ -27,7 +27,7 @@ In this exercise, we will create a story in SAP Analytics Cloud (SAC), which all
 
 6. To select the model that you want to reference in your story:
     - Select `DWC` as the connection on the left panel.
-    - Select your space, e.g., `GE12345`, and the folder `TECHED2024-DA180`.
+    - Select your space, e.g., `GE123456`, and the folder `TECHED2024-DA180`.
     - For our first example, select your `Sales - Analytic Model`.
 
     ![](images/00_00_0205B.png)
@@ -43,7 +43,7 @@ In this exercise, we will create a story in SAP Analytics Cloud (SAC), which all
 
     ![](images/00_00_0209.png) 
 
-10. Select ***Transaction Date*** & ***Product ID***. Afterwards, click anywhere outside the view for dimensions selection to return to the chart settings.
+10. Select ***Transaction Date*** and ***Product ID***. Afterwards, click anywhere outside the view for dimensions selection to return to the chart settings.
 
     ![](images/00_00_0202.png)
 
@@ -67,7 +67,7 @@ In this exercise, we will create a story in SAP Analytics Cloud (SAC), which all
 
     ![](images/00_00_0216_2.png)
 
-16. Open the ***More Actions*** menu (***...***) for the chart (top right corner of chart). Within the menu, go to ***Rank*** > ***Top N Options*** > Update value to "10". Click ***Apply***.
+16. Open the ***More Actions*** menu (***...***) for the chart (top right corner of chart). Within the menu, go to ***Rank*** > ***Top N Options*** > Update value to `10`. Click ***Apply***.
 
     ![](images/00_00_0220.png)
 
@@ -75,15 +75,15 @@ In this exercise, we will create a story in SAP Analytics Cloud (SAC), which all
 
     ![](images/00_00_0226.png)
 
-18. You can adjust the sizing of the chart by clicking and dragging the brackets outward or inward and also move the y-Axis so that the full product name is displayed.
+18. You can adjust the size of the chart by clicking and dragging the brackets outward or inward. Additionally, you can move the y-axis to ensure the full product name is displayed.
 
     ![](images/00_00_0223.png)
 
-19. Your chart should look like this. Note that only the description of the product is displayed based on the configuration in ***Display Options*** for ***Product ID***.
+19. Your chart should look like this. Note that only the description of the product is displayed, based on the configuration in ***Display Options*** for ***Product ID***.
 
     ![](images/00_00_0225.png) 
 
-20. We want to visualize the change of revenue along time in an additional chart. Drag a new chart into the new canvas.
+20. We want to visualize the change in revenue over time using an additional chart. Drag a new chart onto the canvas to get started.
 
     ![](images/00_00_0228.png) 
 
@@ -95,20 +95,21 @@ In this exercise, we will create a story in SAP Analytics Cloud (SAC), which all
 
     ![](images/00_00_0229.png) 
 
-22. Use the time hierarchy defined for ***Transaction Date*** to have a quarter based analysis. Set the hierarchy to ***Year, Quarter, Month, Day*** by clicking on ***Change Hierarchy***. Adjust the level to ***Level 3*** so that the revenue is displayed per quarter.
+22. Use the time hierarchy defined for ***Transaction Date*** to perform a quarter-based analysis. Set the hierarchy to ***Year, Quarter, Month, Day*** by clicking on ***Change Hierarchy***. Adjust the level to ***Level 3*** so that the revenue is displayed per quarter.
 
     ![](images/00_00_0232.png) 
 
-23. You can now modify the style of your story and add elements, headings or adjust chart titles. If you select ***+*** (***Insert*** section), you see the options to e.g. insert standard shapes or other entities like dynamic text.
+23. You can now modify the style of your story and add elements, headings, or adjust chart titles. If you select ***+*** (***Insert*** section), you will see options to insert standard shapes or other entities, such as dynamic text.
 
     ![](images/00_00_0233.png) 
 
-24. In the ***File*** menu select the option ***Save*** to save your story.
+24. In the ***File*** menu, select the option ***Save*** to save your story.
 
-25. Create a folder that matches your space name,  e.g. ***GE123456***.
+25. Create a folder that matches your space name, e.g., ***GE123456***.
+
     ![](images/00_00_0224.png)
 
-26. Select the folder ***GE123456***. Enter a name and a description like ***Revenue Analysis - Products***.
+26. Select the folder ***GE123456***. Enter a name and a description, such as ***Revenue Analysis - Products***.
 
 27. Click ***OK***.
 
